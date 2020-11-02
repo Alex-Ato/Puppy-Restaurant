@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "photoMontaukRegular";
+  src: url("/Montauk-Regular/Montauk-Regular.otf");
+}
+@font-face {
+  font-family: "montaukBold";
+  src: url("./Montauk-Regular/Montauk-Bold.otf");
+}
+@font-face {
+  font-family: "montaukItalic";
+  src: url("./Montauk-Regular/Montauk-Italic.otf");
+}
+@font-face {
+  font-family: "montaukLight";
+  src: url("./Montauk-Regular/Montauk-Light.otf");
+}
+body{
+  font-family: 'montaukRegular';
+}
+
+.photoPuppyBG {
+  background-image: url("../assets/bgtexture.jpg");
+  background-position: top left;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.photoMuzzlesLogo {
+  padding-left: 25%;
+  padding-top: 2%;
+}
+.photoLinksText {
+  font-size: 22px;
+  padding-right: 3%;
+}
+.photoLinksText:last-child {
+  padding-right: 0%;
+}
+.photoNav-link {
+  color: #5f002b;
+}
+.photoLinksSpacing {
+  padding-right: 10%;
+  padding-top: 2%;
+}
+.photoPageHeaderColor {
+  background-color: white;
+}
+.photoPageCenter {
+  display: flex;
+  justify-content: center;
+}
+.photoPageHeaderFont {
+  font-family: "Fugaz One", cursive;
+  font-size: 50px;
+  color: #5f002b;
+}
+.photoBorder {
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+}
+.photoSpacing {
+  display: flex;
+  justify-content: space-evenly;
+}
+.photoFooterSpacing {
+  display: flex;
+  justify-content: space-between;
+}
+
+​.montaukReg {
+  color: red !important;
+  text-decoration: underline;
+}
+.montaukB {
+  font-family: montaukBold;
+}
+​ .montaukI {
+  font-family: montaukItalic;
+}
+​ .montaukLite {
+  font-family: montaukLight;
+}
+
+.footerFontSize {
+  font-size: 20px;
+}
+.cateringPageHeaderFont {
+  font-family: "Fugaz One", cursive;
+  font-size: 50px;
+  color: #5f002b;
+}
+.cateringMargin {
+  margin-left: 4.5%;
+}
+.cateringFooter1 {
+  margin-left: 8%;
+}
+.cateringFooter2 {
+  margin-right: 5%;
+}
+.cateringPageCardFont1 {
+  font-family: "Fugaz One", cursive;
+  font-size: 35px;
+  color: #5f002b;
+}
+.cateringPageCardFont2 {
+  font-family: "Fugaz One", cursive;
+  font-size: 15px;
+  color: #5f002b;
+}
