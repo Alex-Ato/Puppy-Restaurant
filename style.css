@@ -1,24 +1,146 @@
-.puppyBG{
-    background-image: url("../RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg");
+.menuCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.menuEnd {
+    display: flex;
+    justify-content: end;
+}
+
+.menupuppyBG {
+    background-image: url(../images/carlosImages/bgtexture.jpg);
     background-position: top left;
     background-repeat: repeat;
     background-size: cover;
 }
-.muzzlesLogo{
+
+.menumuzzlesLogo {
     padding-left: 25%;
     padding-top: 2%;
 }
-.linksText{
-    font-size: 22px;
+
+.menulinksText {
+    font-size: 20px;
     padding-right: 3%;
+    font-family: 'Fugaz One', cursive;
 }
-.linksText:last-child{
+
+.menulinksText:last-child {
     padding-right: 0%;
 }
-.nav-link{
+
+.menu-nav-link {
     color: #5F002B;
 }
-.linksSpacing{
-    padding-right: 10%;
+
+.menuLinksSpacing {
+    padding-right: 8%;
     padding-top: 2%;
+}
+
+.menuTitleText {
+    font-size: 50px;
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+}
+
+.menuTitleBG {
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'montaukRegular';
+    src: url(/fonts/MontaukRegular.ttf);
+    font-style: normal;
+}
+
+​.menuMontaukReg {
+    font-family: montaukRegular;
+}
+
+.menuAdjustRight {
+    padding-right: 0.4%;
+}
+
+.menuAdjustLeft {
+    padding-left: 0.4%;
+}
+
+.menuSubTitle {
+    font-size: 30px;
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+}
+
+.menuMaroon {
+    color: #5F002B;
+}
+
+.menuNoPadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.menuItem {
+    font-size: 35px;
+}
+
+.menuDescription {
+    font-size: 18px;
+}
+
+.menuPrice {
+    font-size: 35px;
+}
+
+.menuBorders {
+    border-bottom: solid;
+    color: #5F002B;
+    display: flex;
+    justify-content: center;
+}
+
+.menuIndent {
+    text-indent: 10px;
+}
+
+.menuIndent2 {
+    text-indent: -20px;
+}
+
+.menuIndent3 {
+    text-indent: -10px;
+}
+
+.menuIndent4 {
+    text-indent: 20px;
+}
+
+.menuMarginBottom {
+    margin-bottom: 10%;
+}
+
+.menuFooterText {
+    color: #5F002B;
+    font-size: 18px;
+}
+
+.menuLogo {
+    width: 125px;
+}
+
+body {
+    font-family: 'montaukRegular';
+}
+
+.hyphens {
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+    overflow: visible;
+}
+
+.menuCardBorders {
+    rounded-0
 }
