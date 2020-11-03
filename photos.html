@@ -17,31 +17,87 @@
 <body class="photoPuppyBG">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-3 ">
+      <div class="col-3 d-none d-lg-block">
         <!-- Just an image -->
         <nav class="navbar navbar-light photoMuzzlesLogo">
-          <a class="navbar-brand" href="../index.html">
-            <img src="./Tassets/MuzzlesLogo.png" width="100%" height="100%" alt="" loading="lazy">
+          <a class="navbar-brand" href=".../index.html">
+            <img src="./assets/MuzzlesLogo.png" width="100%" height="100%" alt="" loading="lazy">
           </a>
         </nav>
       </div>
-      <div class="col-9 photoLinksSpacing ">
-        <ul class="nav justify-content-end photoPageHeaderFont">
-          <li class="photoNav-item photoLinksText">
-            <a class="photoNav-link" href="./about.html"><strong>About</strong></a>
+      <div class="col-9 photoLinksSpacing d-none d-lg-block">
+        <ul class="nav justify-content-end">
+          <li class="nav-item photoLinksText">
+            <a class="photoNav-link photoHeaderFont" href="./about.html"><strong>About</strong></a>
           </li>
-          <li class="photoNav-item photoLinksText">
-            <a class="photoNav-link" href="./menu.html"><strong>Menu</strong></a>
+          <li class="nav-item photoLinksText">
+            <a class="photoNav-link active photoHeaderFont" href="./menu.html"><strong>Menu</strong></a>
           </li>
-          <li class="photoNav-item photoLinksText">
-            <a class="photoNav-link" href="./catering.html"><strong>Catering</strong></a>
+          <li class="nav-item photoLinksText">
+            <a class="photoNav-link photoHeaderFont" href="./catering.html"><strong>Catering</strong></a>
           </li>
-          <li class="photoNav-item photoLinksText">
-            <a class="photoNav-link active" href="./photos.html"><strong>Photo</strong></a>
+          <li class="nav-item photoLinksText">
+            <a class="photoNav-link photoHeaderFont" href="./photos.html"><strong>Photo</strong></a>
           </li>
         </ul>
       </div>
     </div>
+  </div>
+  <!--Seperate Navbar for mobile screens-->
+  <div class="container-fluid d-none d-sm-block d-lg-none">
+    <div class="row">
+      <div class="col-6 d-flex justify-content-center menuNoPadding">
+        <div class="nav">
+          <div>
+            <img src="/images/carlosImages/MuzzlesLogo.png" class="menuCenter">
+          </div>
+        </div>
+      </div>
+      <div class="col-6 d-flex justify-content-center menuNoPadding">
+        <li class="removeBullet py-4">
+          <div class="dropdown">
+            <button class="btn  dropdown-toggle ml-5 menulinksText menu-nav-link" type="button" id=""
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Explore
+            </button>
+            <div class="dropdown-menu topBtn" aria-labelledby="dropdownMenu2">
+              <a class="dropdown-item menulinksText menu-nav-link" type="button" href="...">About</a>
+              <a class="dropdown-item menulinksText menu-nav-link" type="button" href="...">Menu</a>
+              <a class="dropdown-item menulinksText menu-nav-link" type="button" href="...">Catering</a>
+              <a class="dropdown-item menulinksText menu-nav-link" type="button" href="...">Photo</a>
+            </div>
+          </div>
+        </li>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid d-block d-sm-none">
+    <div class="row">
+      <div class="col-6 d-flex justify-content-center menuNoPadding">
+        <div class="nav">
+          <div>
+            <img src="./assets/MuzzlesLogo.png" class="menuCenter">
+          </div>
+        </div>
+      </div>
+      <div class="col-6 d-flex justify-content-center menuNoPadding">
+        <li class="removeBullet py-4">
+          <div class="dropdown">
+            <button class="btn  dropdown-toggle ml-5 menulinksText menu-nav-link" type="button" id=""
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Explore
+            </button>
+            <div class="dropdown-menu topBtn" aria-labelledby="dropdownMenu2">
+              <a class="dropdown-item menulinksText menu-nav-link" type="button" href="...">About</a>
+              <a class="dropdown-item menulinksText menu-nav-link" type="button" href="...">Menu</a>
+              <a class="dropdown-item menulinksText menu-nav-link" type="button" href="...">Catering</a>
+              <a class="dropdown-item menulinksText menu-nav-link" type="button" href="...">Photo</a>
+            </div>
+          </div>
+        </li>
+      </div>
+    </div>
+  </div>
     <div class="row photoPageCenter">
       <div class="col-10 ">
         <div class="alert alert-light rounded-0 photoPageHeaderFont text-center" role="alert">
@@ -54,27 +110,27 @@
     <br>
     <div class="row photoPageCenter">
       <div class="col-md-10 photoSpacing mb-2 ">
-        <img class="photoBorder mr-2" src="./Tassets/photo01.jpg" alt="A juicy steak for A good dog" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo02.jpg" alt="A dog about to enjoy a delicious dessert" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo03.jpg" alt="A slice chocolate cheesecake" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo04.jpg" alt="A dog licking his plate clean" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo01.jpg" alt="A juicy steak for A good dog" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo02.jpg" alt="A dog about to enjoy a delicious dessert" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo03.jpg" alt="A slice chocolate cheesecake" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo04.jpg" alt="A dog licking his plate clean" width="100%">
       </div>
     </div>
     <div class="row photoPageCenter">
       <div class="col-md-10 photoSpacing mb-2">
-        <img class="photoBorder mr-2" src="./Tassets/photo05.jpg" alt="Shrimp Skewers waiting for a dog to eat them" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo06.jpg" alt="A large steak and some tomatoes cut on a wooden board" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo07.jpg" alt="A brown and a black puppy both eating A loaf of bread" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo08.jpg" alt="A juicy rack of ribs with a couple seasonings" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo05.jpg" alt="Shrimp Skewers waiting for a dog to eat them" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo06.jpg" alt="A large steak and some tomatoes cut on a wooden board" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo07.jpg" alt="A brown and a black puppy both eating A loaf of bread" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo08.jpg" alt="A juicy rack of ribs with a couple seasonings" width="100%">
       </div>
     </div>
     
     <div class="row photoPageCenter">
       <div class="col-md-10 photoSpacing">
-        <img class="photoBorder mr-2" src="./Tassets/photo09.jpg" alt="A large cooked fish with lemon slices all around it" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo10.jpg" alt="A big brownie with a scoop of ice cream on top" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo11.jpg" alt="A dog beginning to eat a sandwhich" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo12.jpg" alt="A juicy salmon fillet with cooked asparagus" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo09.jpg" alt="A large cooked fish with lemon slices all around it" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo10.jpg" alt="A big brownie with a scoop of ice cream on top" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo11.jpg" alt="A dog beginning to eat a sandwhich" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo12.jpg" alt="A juicy salmon fillet with cooked asparagus" width="100%">
       </div>
     </div>
     <br>
@@ -82,34 +138,47 @@
   <div class="container-fluid d-block d-md-none">
     <div class="row photoPageCenter">
       <div class="col">
-        <img class="photoBorder mr-2" src="./Tassets/photo01.jpg" alt="A juicy steak for A good dog" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo02.jpg" alt="A dog about to enjoy a delicious dessert" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo03.jpg" alt="A slice chocolate cheesecake" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo04.jpg" alt="A dog licking his plate clean" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo05.jpg" alt="Shrimp Skewers waiting for a dog to eat them" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo06.jpg" alt="A large steak and some tomatoes cut on a wooden board" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo07.jpg" alt="A brown and a black puppy both eating A loaf of bread" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo08.jpg" alt="A juicy rack of ribs with a couple seasonings" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo09.jpg" alt="A large cooked fish with lemon slices all around it" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo10.jpg" alt="A big brownie with a scoop of ice cream on top" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo11.jpg" alt="A dog beginning to eat a sandwhich" width="100%">
-        <img class="photoBorder mr-2" src="./Tassets/photo12.jpg" alt="A juicy salmon fillet with cooked asparagus" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo01.jpg" alt="A juicy steak for A good dog" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo02.jpg" alt="A dog about to enjoy a delicious dessert" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo03.jpg" alt="A slice chocolate cheesecake" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo04.jpg" alt="A dog licking his plate clean" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo05.jpg" alt="Shrimp Skewers waiting for a dog to eat them" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo06.jpg" alt="A large steak and some tomatoes cut on a wooden board" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo07.jpg" alt="A brown and a black puppy both eating A loaf of bread" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo08.jpg" alt="A juicy rack of ribs with a couple seasonings" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo09.jpg" alt="A large cooked fish with lemon slices all around it" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo10.jpg" alt="A big brownie with a scoop of ice cream on top" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo11.jpg" alt="A dog beginning to eat a sandwhich" width="100%">
+        <img class="photoBorder mr-2" src="./assets/photo12.jpg" alt="A juicy salmon fillet with cooked asparagus" width="100%">
       </div>
     </div>
   </div>
   <br>
-  <div class="container-fluid">
-    <div class="row photoFooterSpacing">
-      <div class="col px-5 ml-5">
-        <p>1357 Mutt Street, Rottweiler CA. 12345</p>
-        <p>Phone: 123-456-7890</p>
+  <div class="containter-fluid pt-5 pb-4">
+    <div class="row pt-5">
+      <div class="col-1"></div>
+      <div class="col-5 ">
+        <div class="row">
+          <div class="col-12 photoNoPadding">
+            <p class="photoFooterText photoNoPadding">1357 Mutt Street, Rottweiler CA. 12345</p>
+          </div>
+          <div class="col-12 photoNoPadding hyphens">
+            <p class="photoFooterText ">Phone: 123&hyphen;456&hyphen;7890</p>
+          </div>
+        </div>
       </div>
-      <div class="col-2">
-        <img src="./Tassets/CompanyLogo.png" alt="" width="100px" height="31.6px">
-        <p>Copyright © Muzzles Restaurant</p>
+      <div class="col-5 ">
+        <div class="row">
+          <div class="col-12 photoNoPadding d-flex justify-content-end">
+            <img class="photoLogo" src="./assets/MuzzlesLogo.png" alt="Image of the company logo."/>
+          </div>
+          <div class="col-12 menuNoPadding d-flex justify-content-end">
+            <p class="photoFooterText">Copyright © Muzzles Restaurant</p>
+          </div>
+        </div>
       </div>
+      <div class="col-1"></div>
     </div>
-    <br>
   </div>
     
     
