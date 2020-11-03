@@ -1,25 +1,26 @@
 @font-face {
   font-family: "photoMontaukRegular";
-  src: url("/Montauk-Regular/Montauk-Regular.otf");
+  src: url("/TMontauk-Regular/Montauk-Regular.otf");
 }
 @font-face {
   font-family: "montaukBold";
-  src: url("./Montauk-Regular/Montauk-Bold.otf");
+  src: url("./TMontauk-Regular/Montauk-Bold.otf");
 }
 @font-face {
   font-family: "montaukItalic";
-  src: url("./Montauk-Regular/Montauk-Italic.otf");
+  src: url("./TMontauk-Regular/Montauk-Italic.otf");
 }
 @font-face {
   font-family: "montaukLight";
-  src: url("./Montauk-Regular/Montauk-Light.otf");
+  src: url("./TMontauk-Regular/Montauk-Light.otf");
 }
 body{
-  font-family: 'montaukRegular';
+  font-family: 'photoMontaukRegular';
+  color: #5f002b;
 }
 
 .photoPuppyBG {
-  background-image: url("../assets/bgtexture.jpg");
+  background-image: url("../Tassets/bgtexture.jpg");
   background-position: top left;
   background-repeat: repeat;
   background-size: cover;
