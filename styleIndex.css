@@ -1,207 +1,274 @@
-@font-face{
+@font-face {
     font-family: montaukRegular;
     src: url(../Montauk-Regular/Montauk-Regular.otf);
 }
-@font-face{
+
+@font-face {
     font-family: montaukBold;
     src: url(../Montauk-Regular/Montauk-Bold.otf);
 }
-@font-face{
+
+@font-face {
     font-family: montaukItalic;
     src: url(../Montauk-Regular/Montauk-Italic.otf);
 }
-@font-face{
+
+@font-face {
     font-family: montaukLight;
     src: url(../Montauk-Regular/Montauk-Light.otf);
 }
 
-.montaukReg{
-font-family: montaukRegular;
-color: #5F002B;
+.montaukReg {
+    font-family: montaukRegular;
+    color: #5F002B;
 }
-.montaukB{
+
+.montaukB {
     font-family: montaukBold;
     color: #5F002B;
 }
 
-.montaukI{
+.montaukI {
     font-family: montaukItalic;
     color: #5F002B;
 }
 
-.montaukLite{
+.montaukLite {
     font-family: montaukLight;
     color: #5F002B;
 }
 
-.fugaz{
+.fugaz {
     font-family: 'Fugaz One', cursive;
 }
 
-.muzzlesLogo{
-    width: 130%;
-    height: 130%;
+
+.removeBullet {
+    list-style-type: none;
 }
 
-.puppyBG{
+.puppyBG {
     background-image: url("../RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg");
     background-position: top left;
     background-repeat: repeat;
     background-size: cover;
 }
 
-.linksText{
-    font-size: 22px;
-    padding-right: 3%;
-}
-.linksText:last-child{
-    padding-right: 0%;
-}
-.nav-link{
-    color: #5F002B;
-}
-.linksSpacing{
-    padding-right: 10%;
+.menumuzzlesLogo {
+    padding-left: 25%;
     padding-top: 2%;
 }
-.homePageRooms{
+.menulinksText {
+    font-size: 20px;
+    padding-right: 3%;
+    font-family: 'Fugaz One', cursive;
+}
+.menulinksText:last-child {
+    padding-right: 0%;
+}
+.menu-nav-link {
+    color: #5F002B;
+}
+.menu-nav-link:hover {
+    color: #5F002B;
+    font-size: 20px;
+    font-family: 'Fugaz One', cursive;
+}
+.menuLinksSpacing {
+    padding-right: 8%;
+    padding-top: 2%;
+}
+
+.homePageRooms {
     background-image: url("../RestaurantMockupFiles/RestaurantMockupFiles/assets/homeHero.jpg");
     height: 33vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    
 }
-.panini{
+
+.panini {
     padding-top: 5%;
-    
 }
-.paninisize{
-    width: 1000px;
-    height: 600px;
-}
-.muzzleTitle{
-    font-size: 60px;
-}
-.muzzleText{
+
+.muzzleText {
     padding-top: 5%;
     color: #5F002B;
 }
-.muzzleTextBG{
+
+.muzzleTextBG {
     background-color: #FFFFFF;
     color: #5F002B;
-    
 }
-.muzzleparagraph{
+
+.muzzleparagraph {
     padding-bottom: 2%;
 }
-.footer{
-    padding-top: 2%;
-        position: absolute;
-        left: 0;
-        bottom: 10;
-        width: 100%;
-       
-        text-align: center;
-      font-size: 20px;
+
+.menuFooterText {
+    color: #5F002B;
+    font-size: 18px;
 }
-.companylogo{
-    width: 7vw;
+.menuLogo {
+    width: 125px;
 }
-.footerSpace{
-    padding-bottom: 2%;
-}
-.footerText{
-    font-size: 25px;
-}
-.hyphens{
+
+.hyphens {
     -webkit-hyphens: manual;
     -ms-hyphens: manual;
     hyphens: manual;
     overflow: visible;
 }
 
-
-@media only screen and (min-width: 320px){
-
+.menuNoPadding {
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
-@media only screen and (min-width: 375px){
-
-}
-
-@media only screen and (min-width: 425px){
-
-}
-
-@media only screen and (min-width: 768px){
-
-}
-
-@media only screen and (max-width: 1024px){
+.paniniBackgroundImg{
+    background-image: url(../assets/homeSingle.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     
 }
 
-@media only screen and (min-width: 1440px){
-    .linksText{
+@media only screen and (min-width: 320px) {
+    
+    .paninisize {
+        width: 100%;
+        height: auto;
+    }
+    .muzzleTitle {
+        font-size: 20px;
+        padding-top: 3%;
+        padding-left: 3%;
+    }
+    .muzzleparagraph {
+        font-size: 12px;
+        padding-bottom: 8%;
+        padding-left: 3%;
+        padding-right: 0%;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .muzzleTitle {
+        font-size: 30px;
+        padding-top: 3%;
+        padding-left: 3%;
+    }
+    .muzzleparagraph {
+        font-size: 15px;
+        padding-bottom: 8%;
+        padding-left: 3%;
+        padding-right: 0%;
+    }
+}
+
+@media only screen and (min-width: 425px) {}
+
+@media only screen and (min-width: 768px) {
+    .muzzleTitle {
+        font-size: 35px;
+        padding-top: 1%;
+        padding-left: 1%;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    .linksText {
         font-size: 20px;
         padding-right: 0%;
     }
-    .footerText{
-        font-size: 22px;
-    }
-    .muzzlesLogo{
-        width: 100%;
-        height: 100%;
-    }
-    .paninisize{
-        width: 500px;
-        height: 400px;
-    }
-    .muzzleTitle{
+    .muzzleTitle {
         font-size: 40px;
-        padding-top: 1%;
-        padding-left: 1%;
+        padding-top: 3%;
+        padding-left: 3%;
     }
-    .muzzleparagraph{
+    .muzzleparagraph {
+        font-size: 22px;
+        padding-bottom: 8%;
+        padding-left: 3%;
+        padding-right: 0%;
+    }
+    .paninisize {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .paninisize {
+        width: 100%;
+        height: auto;
+    }
+    .muzzleTitle {
+        font-size: 30px;
+        padding-top: 1%;
+        padding-left: 3%;
+    }
+    .muzzleparagraph {
         font-size: 15px;
         padding-bottom: 2%;
     }
-    .companylogo{
-        width: 6vw;
+}
+
+@media only screen and (min-width: 1440px) {
+    .linksText {
+        font-size: 20px;
+        padding-right: 0%;
+    }
+    .paninisize {
+        width: 840px;
+        height: 600px;
+    }
+    .muzzlesLogo {
+        width: 100%;
+        height: auto;
+    }
+    .muzzleTitle {
+        font-size: 40px;
+        padding-top: 1%;
+        padding-left: 3%;
+    }
+    .muzzleparagraph {
+        font-size: 20px;
+        padding-bottom: 2%;
+    }
+    
+    .tripleImages {
+        height: 180px;
     }
 }
 
-@media only screen and (min-width: 2560px){
-    .linksText{
-        font-size: 22px;
+@media only screen and (min-width: 2560px) {
+    .linksText {
+        font-size: 30px;
     }
-    .companylogo{
+    .companylogo {
         width: 8vw;
     }
-    .footerText{
-        font-size: 26px;
-    }
-    .muzzlesLogo{
+    .muzzlesLogo {
         width: 130%;
         height: 130%;
     }
-    .paninisize{
+    .paninisize {
         width: 1000px;
-        height: 600px;
+        height: 700px;
     }
-    .muzzleTitle{
+    .muzzleTitle {
         font-size: 60px;
         padding-top: 1%;
-        padding-left: 1%;
+        padding-left: 3%;
     }
-    .muzzleparagraph{
-        font-size: 21px;
+    .muzzleparagraph {
+        font-size: 24px;
         padding-bottom: 5%;
     }
-    .tripleImages{
+    .tripleImages {
         height: 240px;
     }
+    
 }
-
