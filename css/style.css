@@ -162,19 +162,11 @@ body {
 
 /*Alex's CSS */
 
+/* Grabbing Fonts */
+
 @font-face {
     font-family: montaukRegular;
     src: url(../Montauk-Regular/Montauk-Regular.otf);
-}
-
-@font-face {
-    font-family: montaukBold;
-    src: url(../Montauk-Regular/Montauk-Bold.otf);
-}
-
-@font-face {
-    font-family: montaukItalic;
-    src: url(../Montauk-Regular/Montauk-Italic.otf);
 }
 
 @font-face {
@@ -187,27 +179,13 @@ body {
     color: #5F002B;
 }
 
-.montaukB {
-    font-family: montaukBold;
-    color: #5F002B;
-}
-
-.montaukI {
-    font-family: montaukItalic;
-    color: #5F002B;
-}
-
 .montaukLite {
     font-family: montaukLight;
     color: #5F002B;
 }
 
 .fugaz {
-    font-family: 'Fugaz One', cursive;
-}
-
-.removeBullet {
-    list-style-type: none;
+    font-family: 'Fugaz One', Regular;
 }
 
 .puppyBG {
@@ -217,35 +195,43 @@ body {
     background-size: cover;
 }
 
-.menumuzzlesLogo {
-    padding-left: 25%;
-    padding-top: 2%;
+/* NavBar */
+
+.muzzlesLogo {
+    padding-left: 30%;
+    width: 100%;
+    height: auto;
 }
 
-.menulinksText {
-    font-size: 20px;
+.removeBullet {
+    list-style-type: none;
+}
+
+.linksText {
+    font-size: 25px;
     padding-right: 3%;
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Fugaz One', Regular;
 }
 
-.menulinksText:last-child {
+.linksText:last-child {
     padding-right: 0%;
 }
 
-.menu-nav-link {
+.nav-link {
     color: #5F002B;
 }
 
-.menu-nav-link:hover {
+.nav-link:hover {
+    text-decoration: underline;
     color: #5F002B;
-    font-size: 20px;
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Fugaz One', Regular;
 }
 
-.menuLinksSpacing {
+.LinksSpacing {
     padding-right: 8%;
-    padding-top: 2%;
 }
+
+/* First Picture that spans the entire website */
 
 .homePageRooms {
     background-image: url("../assets/homeHero.jpg");
@@ -255,6 +241,8 @@ body {
     background-size: cover;
     position: relative;
 }
+
+/* panini and MuzzleSandwhiches */
 
 .panini {
     padding-top: 5%;
@@ -274,12 +262,14 @@ body {
     padding-bottom: 2%;
 }
 
-.menuFooterText {
+/* Footer */
+
+.FooterText {
     color: #5F002B;
     font-size: 18px;
 }
 
-.menuLogo {
+.Logo {
     width: 125px;
 }
 
@@ -290,24 +280,29 @@ body {
     overflow: visible;
 }
 
-.menuNoPadding {
+.NoPadding {
     padding: 0 !important;
     margin: 0 !important;
 }
 
-.paniniBackgroundImg {
-    background-image: url(../assets/homeSingle.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-}
+/* Media queries */
 
 @media only screen and (min-width: 320px) {
+    .btnSize{
+        font-size: medium;
+    }
+   
+    .muzzlesLogo{
+        width: 280px;
+        height: auto;
+    }
+
     .paninisize {
         width: 100%;
         height: auto;
     }
     .muzzleTitle {
-        font-size: 20px;
+        font-size: 18px;
         padding-top: 3%;
         padding-left: 3%;
     }
@@ -321,8 +316,30 @@ body {
 
 @media only screen and (min-width: 375px) {
     .muzzleTitle {
-        font-size: 30px;
+        font-size: 20px;
         padding-top: 3%;
+        padding-left: 3%;
+    }
+    .muzzleparagraph {
+        font-size: 13px;
+        padding-bottom: 8%;
+        padding-left: 3%;
+        padding-right: 0%;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .muzzleTitle {
+        font-size: 20px;
+        padding-top: 3%;
+        padding-left: 3%;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .muzzleTitle {
+        font-size: 35px;
+        padding-top: 1%;
         padding-left: 3%;
     }
     .muzzleparagraph {
@@ -333,20 +350,14 @@ body {
     }
 }
 
-@media only screen and (min-width: 425px) {}
-
-@media only screen and (min-width: 768px) {
-    .muzzleTitle {
-        font-size: 35px;
-        padding-top: 1%;
-        padding-left: 1%;
-    }
+@media only screen and (min-width: 992px) {
+    
 }
 
 @media only screen and (min-width: 1024px) {
     .linksText {
-        font-size: 20px;
-        padding-right: 0%;
+        font-size: 25px;
+        padding-right: 3%;
     }
     .muzzleTitle {
         font-size: 40px;
@@ -383,17 +394,14 @@ body {
 
 @media only screen and (min-width: 1440px) {
     .linksText {
-        font-size: 20px;
-        padding-right: 0%;
+        font-size: 25px;
+        padding-right: 3%;
     }
     .paninisize {
-        width: 840px;
-        height: 600px;
-    }
-    .muzzlesLogo {
         width: 100%;
         height: auto;
     }
+    
     .muzzleTitle {
         font-size: 40px;
         padding-top: 1%;
@@ -404,24 +412,13 @@ body {
         padding-bottom: 2%;
     }
     .tripleImages {
-        height: 180px;
+        height: 160px;
     }
 }
 
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: 2300px) {
     .linksText {
         font-size: 30px;
-    }
-    .companylogo {
-        width: 8vw;
-    }
-    .muzzlesLogo {
-        width: 130%;
-        height: 130%;
-    }
-    .paninisize {
-        width: 1000px;
-        height: 700px;
     }
     .muzzleTitle {
         font-size: 60px;
@@ -429,13 +426,253 @@ body {
         padding-left: 3%;
     }
     .muzzleparagraph {
-        font-size: 24px;
+        font-size: 27px;
         padding-bottom: 5%;
     }
     .tripleImages {
         height: 240px;
     }
 }
+
+/*Alex About Styling */
+
+/* Grabbing Fonts */
+@font-face {
+    font-family: montaukRegular;
+    src: url(../Montauk-Regular/Montauk-Regular.otf);
+}
+
+@font-face {
+    font-family: montaukLight;
+    src: url(../Montauk-Regular/Montauk-Light.otf);
+}
+
+.montaukReg {
+    font-family: montaukRegular;
+    color: #5F002B;
+}
+
+.montaukLite {
+    font-family: montaukLight;
+    color: #5F002B;
+}
+
+.fugaz {
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+}
+
+
+.puppyBG {
+    background-image: url("../assets/bgtexture.jpg");
+    background-position: top left;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* NavBar */
+
+.muzzlesLogo {
+    padding-left: 30%;
+    width: 100%;
+    height: auto;
+}
+
+.removeBullet {
+    list-style-type: none;
+}
+
+.linksText {
+    font-size: 25px;
+    padding-right: 3%;
+    font-family: 'Fugaz One', Regular;
+}
+
+.linksText:last-child {
+    padding-right: 0%;
+}
+
+.nav-link {
+    color: #5F002B;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #5F002B;
+    font-family: 'Fugaz One', Regular;
+}
+
+.LinksSpacing {
+    padding-right: 8%;
+}
+
+.NoPadding{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* behindTheGrill and Dog-side photo */
+
+.aboutImg {
+    width: 100%;
+    height: auto;
+}
+.behindTheGrillTextBG {
+    background-color: #FFFFFF;
+}
+
+.behindTheGrillTitle {
+    font-size: 40px;
+}
+
+.behindTheGrillParagraph {
+    font-size: 18px;
+}
+
+/* Our Team */
+
+.ourTeamBG{
+    background-color: white;
+}
+.ourTeamText{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 35px;
+}
+
+/* Dog Cards */
+
+
+.card-img-top{
+    width: 100%;
+    height: auto;
+}
+
+/* Footer noPadding is in the Header*/
+
+.FooterText {
+    color: #5F002B;
+    font-size: 18px;
+}
+
+.Logo {
+    width: 125px;
+}
+
+
+
+/*Media Queries */
+
+@media only screen and (min-width: 320px){
+    
+    .btnSize{
+        font-size: medium;
+    }
+    .muzzlesLogo{
+        width: 280px;
+        height: auto;
+    }
+    .behindTheGrillTitle {
+        font-size: 30px;
+    }
+    
+    .behindTheGrillParagraph {
+        font-size: 14px;
+    }
+    .card-title{
+        font-size: 30px;
+    }
+    .card-text{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .card-title{
+        font-size: 35px;
+    }
+    .card-text{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 994px){
+    .behindTheGrillTitle {
+        font-size: 40px;
+    }
+    
+    .behindTheGrillParagraph {
+        font-size: 17px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px){
+
+    .behindTheGrillTitle {
+        font-size: 29px;
+    }
+
+    .behindTheGrillParagraph {
+        font-size: 12px;
+    }
+
+    .cardWidth{
+        width: auto;
+    }
+    .card-title{
+        font-size: 35px;
+    }
+    .card-text{
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 1400px){
+
+    .behindTheGrillTitle {
+        font-size: 35px;
+    }
+
+    .behindTheGrillParagraph {
+        font-size: 14px;
+    }
+    .card-title{
+        font-size: 40px;
+    }
+    .card-text{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 1800px){
+
+    .behindTheGrillTitle {
+        font-size: 50px;
+    }
+
+    .behindTheGrillParagraph {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 2350px){
+
+    .behindTheGrillTitle {
+        font-size: 60px;
+    }
+
+    .behindTheGrillParagraph {
+        font-size: 24px;
+    }
+    .card-title{
+        font-size: 60px;
+    }
+    .card-text{
+        font-size: 30px;
+    }
+}
+
 
 /* Trevor's CSS*/
 
