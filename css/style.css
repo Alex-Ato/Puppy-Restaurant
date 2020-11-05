@@ -25,7 +25,7 @@
 .menulinksText {
     font-size: 20px;
     padding-right: 3%;
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Fugaz One', Regular;
 }
 
 .menulinksText:last-child {
@@ -39,7 +39,7 @@
 .menu-nav-link:hover {
     color: #5F002B;
     font-size: 20px;
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Fugaz One', Regular;
 }
 
 .menuLinksSpacing {
@@ -49,7 +49,7 @@
 
 .menuTitleText {
     font-size: 50px;
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Fugaz One', Regular;
     color: #5F002B;
 }
 
@@ -472,6 +472,12 @@ body {
 
 .photoNav-link {
     color: #5f002b;
+}
+
+.photoNav-link:hover {
+    color: #5F002B;
+    font-size: 20px;
+    font-family: 'Fugaz One', Regular;
 }
 
 .photoLinksSpacing {
