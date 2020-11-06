@@ -20,7 +20,7 @@
       <div class="col-3 d-none d-lg-block">
         <!-- Just an image -->
         <nav class="navbar navbar-light photoMuzzlesLogo">
-          <a class="navbar-brand" href="./pages/index.html">
+          <a class="navbar-brand" href="../index.html">
             <img src="../assets/MuzzlesLogo.png" width="100%" height="100%" alt="The Muzzle's Logo restaurant" loading="lazy">
           </a>
         </nav>
@@ -56,15 +56,15 @@
       <div class="col-6 d-flex justify-content-center photoNoPadding">
         <li class="removeBullet py-4">
           <div class="dropdown">
-            <button class="btn  dropdown-toggle ml-5 photoLinksText photoNav-link" type="button" id=""
+            <button class="btn  dropdown-toggle ml-5 menulinksText photoNav-link" type="button" id=""
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Explore
             </button>
             <div class="dropdown-menu topBtn" aria-labelledby="dropdownMenu2">
-              <a class="dropdown-item photoLinksText photoNav-link photoHeaderFont" type="button" href="./about.html">About</a>
-              <a class="dropdown-item photoLinksText photoNav-link photoHeaderFont" type="button" href="./menu.html">Menu</a>
-              <a class="dropdown-item photoLinksText photoNav-link photoHeaderFont" type="button" href="./catering.html">Catering</a>
-              <a class="dropdown-item photoLinksText photoNav-link photoHeaderFont" type="button" href="./photos.html">Photo</a>
+              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./about.html">About</a>
+              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./menu.html">Menu</a>
+              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./catering.html">Catering</a>
+              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./photos.html">Photo</a>
             </div>
           </div>
         </li>
@@ -83,15 +83,15 @@
       <div class="col-6 d-flex justify-content-center photoNoPadding">
         <li class="removeBullet py-4">
           <div class="dropdown">
-            <button class="btn  dropdown-toggle ml-5 photoLinksText photoNav-link" type="button" id=""
+            <button class="btn  dropdown-toggle ml-5 menulinksText photoNav-link" type="button" id=""
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Explore
             </button>
             <div class="dropdown-menu topBtn" aria-labelledby="dropdownMenu2">
-              <a class="dropdown-item photoLinksText photoNav-link photoHeaderFont" type="button" href="./about.html">About</a>
-              <a class="dropdown-item photoLinksText photoNav-link photoHeaderFont" type="button" href="./menu.html">Menu</a>
-              <a class="dropdown-item photoLinksText photoNav-link photoHeaderFont" type="button" href="./catering.html">Catering</a>
-              <a class="dropdown-item photoLinksText photoNav-link photoHeaderFont" type="button" href="./photos.html">Photo</a>
+              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./about.html">About</a>
+              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./menu.html">Menu</a>
+              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./catering.html">Catering</a>
+              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./photos.html">Photo</a>
             </div>
           </div>
         </li>
@@ -120,11 +120,11 @@
     <div class="row">
       <div class="col-md-1">
       </div>
-      <div class="col-xs-12 col-md-4 photoPageCenter">
+      <div class="col-xs-12 col-lg-4 photoPageCenter">
         <img src="../assets/cateringMaine.jpg" alt="A delicious and extensive set of stuffed and roasted tomatoes."
           width="100%">
       </div>
-      <div class="col-xs-12 col-md-6 photoPageCenter">
+      <div class="col-xs-12 col-lg-6 photoPageCenter">
         <div class="card rounded-0" style="width: 100%;">
           <div class="card-body">
             <p class="card-title cateringPageCardFont1">Our Catering Services</p>
@@ -156,7 +156,8 @@
     <br>
     <br>
     <br>
-    <div class="container-fluid d-none d-md-block">
+    <!-- This is for large and above -->
+    <div class="container-fluid d-none d-lg-block">
       <div class="row photoPageCenter">
         <div class="col-3">
           <img src="../assets/catering1.jpg" alt="A juicy steak for A good dog" width="110%">
@@ -169,7 +170,23 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid d-block d-md-none">
+    <!-- This is for medium  -->
+    <div class="container-fluid d-none d-md-block d-lg-none">
+      <div class="row menuCenter">
+
+        <div class="col-10 menuCenter mt-4">
+          <img src="../assets/catering1.jpg" alt="A juicy steak for A good dog" width="110%">
+        </div>
+        <div class="col-10 menuCenter mt-4">
+          <img src="../assets/catering2.jpg" alt="A dog about to enjoy a delicious dessert" width="110%">
+        </div>
+        <div class="col-10 menuCenter mt-4">
+          <img src="../assets/catering3.jpg" alt="A slice chocolate cheesecake" width="110%">
+        </div>
+      </div>
+    </div>
+    <!-- This is for extra small and small -->
+    <div class="container-fluid d-block d-sm-none">
       <div class="row menuCenter">
 
         <div class="col-10 menuCenter mt-4">
@@ -190,32 +207,50 @@
   <br>
   <br>
   <br>
-  <div class="containter-fluid pt-5 pb-4">
-    <div class="row pt-5">
-      <div class="col-1"></div>
-      <div class="col-5 ">
-        <div class="row">
-          <div class="col-12 photoNoPadding">
-            <p class="photoFooterText photoNoPadding">1357 Mutt Street, Rottweiler CA. 12345</p>
-          </div>
-          <div class="col-12 photoNoPadding hyphens">
-            <p class="photoFooterText ">Phone: 123&hyphen;456&hyphen;7890</p>
-          </div>
+ <!--Footer for Medium and Larger screens-->
+ <div class="containter-fluid d-none d-md-block pt-5 pb-4">
+  <div class="row pt-5">
+    <div class="col-1"></div>
+    <div class="col-5 ">
+      <div class="row">
+        <div class="col-12 NoPadding">
+          <p class="FooterText NoPadding">1357 Mutt Street, Rottweiler CA. 12345</p>
+        </div>
+        <div class="col-12 NoPadding hyphens">
+          <p class="FooterText ">Phone: 123&hyphen;456&hyphen;7890</p>
         </div>
       </div>
-      <div class="col-5 ">
-        <div class="row">
-          <div class="col-12 photoNoPadding d-flex justify-content-end">
-            <img class="photoLogo" src="../assets/MuzzlesLogo.png" alt="Image of the company logo." />
-          </div>
-          <div class="col-12 photoNoPadding d-flex justify-content-end">
-            <p class="photoFooterText">Copyright © Muzzles Restaurant</p>
-          </div>
+    </div>
+    <div class="col-5 d-flex justify-content-end">
+      <div class="row">
+        <div class="col-12 NoPadding d-flex justify-content-end">
+          <img class="Logo" src="../assets/CompanyLogo.png" alt="Image of the company logo." />
+        </div>
+        <div class="col-12 NoPadding d-flex justify-content-end pr-0">
+          <p class="FooterText">Copyright © Muzzles Restaurant</p>
         </div>
       </div>
-      <div class="col-1"></div>
+    </div>
+    <div class="col-1"></div>
+  </div>
+</div>
+
+<!--Footer for 425px and below-->
+<div class="container-fluid d-md-none">
+  <div class="row">
+    <div class="col-12 NoPadding d-flex justify-content-center ">
+      <img class="Logo mb-3" src="../assets/CompanyLogo.png" alt="Image of the company logo." />
+    </div>
+    <div class="col-12 NoPadding ">
+      <p class="FooterText d-flex justify-content-center NoPadding">1357 Mutt Street, <br> </p>
+      <p class="FooterText d-flex justify-content-center ">Rottweiler CA. 12345</p>
+      <p class="FooterText d-flex justify-content-center">Phone: 123&hyphen;456&hyphen;7890</p>
+    </div>
+    <div class="col-12 d-flex justify-content-center">
+      <p class="FooterText mb-4">Copyright © Muzzles Restaurant</p>
     </div>
   </div>
+</div>
 
   <!-- Optional JavaScript; choose one of the two! -->
 
