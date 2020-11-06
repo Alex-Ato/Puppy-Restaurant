@@ -1,5 +1,6 @@
 /* Carlos' CSS */
 
+/* Carlos' Navbar */
 .menuCenter {
     display: flex;
     justify-content: center;
@@ -46,6 +47,8 @@
     padding-right: 8%;
     padding-top: 2%;
 }
+
+/* Carlos' Menu Title begins */
 
 .menuTitleText {
     font-size: 50px;
