@@ -1,5 +1,9 @@
 /* Carlos' CSS */
 
+
+body {
+    font-family: 'montaukRegular';
+}
 /* Carlos' Navbar */
 .menuCenter {
     display: flex;
@@ -48,6 +52,10 @@
     padding-top: 2%;
 }
 
+.removeBullet {
+    list-style-type: none;
+}
+
 /* Carlos' Menu Title begins */
 
 .menuTitleText {
@@ -69,6 +77,8 @@
 ​.menuMontaukReg {
     font-family: montaukRegular;
 }
+
+/* Carlos' Menu Food Items */
 
 .menuAdjustRight {
     padding-right: 0.4%;
@@ -128,6 +138,8 @@
     margin-bottom: 10%;
 }
 
+/* Carlos' Footer */
+
 .menuFooterText {
     color: #5F002B;
     font-size: 18px;
@@ -137,10 +149,6 @@
     width: 125px;
 }
 
-body {
-    font-family: 'montaukRegular';
-}
-
 .hyphens {
     -webkit-hyphens: manual;
     -ms-hyphens: manual;
@@ -148,9 +156,7 @@ body {
     overflow: visible;
 }
 
-.removeBullet {
-    list-style-type: none;
-}
+
 
 @media only screen and (max-width: 991px) {
     .menuAdjustLeft {
@@ -696,6 +702,8 @@ body {
     background-size: cover;
 }
 
+/* Trevor's Navbar */
+
 .photoMuzzlesLogo {
     padding-left: 25%;
     padding-top: 2%;
@@ -725,6 +733,8 @@ body {
     padding-top: 2%;
 }
 
+/* Trevor's Title */
+
 .photoPageHeaderColor {
     background-color: white;
 }
@@ -740,6 +750,8 @@ body {
     color: #5f002b;
 }
 
+/* Trevor's Photo body */
+
 .photoBorder {
     border-style: solid;
     border-color: white;
@@ -751,9 +763,15 @@ body {
     justify-content: space-evenly;
 }
 
+/* Trevor's Footer */
+
 .photoFooterSpacing {
     display: flex;
     justify-content: space-between;
+}
+
+.footerFontSize {
+    font-size: 20px;
 }
 
 ​.montaukReg {
@@ -773,9 +791,7 @@ body {
     font-family: montaukLight;
 }
 
-.footerFontSize {
-    font-size: 20px;
-}
+/* Trevor's Catering Title */
 
 .cateringPageHeaderFont {
     font-family: "Fugaz One", cursive;
@@ -786,6 +802,8 @@ body {
 .cateringMargin {
     margin-left: 4.5%;
 }
+
+/* Trevor's Catering Footer */
 
 .cateringFooter1 {
     margin-left: 8%;
