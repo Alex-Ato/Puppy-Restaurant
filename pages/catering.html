@@ -15,86 +15,93 @@
 </head>
 
 <body class="photoPuppyBG">
-  <div class="container-fluid">
+  <div class="container-fluid mb-4">
     <div class="row">
       <div class="col-3 d-none d-lg-block">
-        <!-- Just an image -->
-        <nav class="navbar navbar-light photoMuzzlesLogo">
+        <!-- Website NavBar -->
+        <nav class="navbar navbar-light muzzlesLogo mt-2">
           <a class="navbar-brand" href="../index.html">
-            <img src="../assets/MuzzlesLogo.png" width="100%" height="100%" alt="The Muzzle's Logo restaurant" loading="lazy">
+            <img src="../assets/MuzzlesLogo.png" alt="Muzzles' Logo" loading="lazy">
           </a>
         </nav>
       </div>
-      <div class="col-9 photoLinksSpacing d-none d-lg-block">
+      <div class="col-9 LinksSpacing d-none d-lg-block mt-5">
         <ul class="nav justify-content-end">
-          <li class="nav-item photoLinksText">
-            <a class="photoNav-link photoHeaderFont" href="./about.html">About</a>
+          <li class="nav-item linksText">
+            <a class="nav-link" href="./about.html">About</a>
           </li>
-          <li class="nav-item photoLinksText">
-            <a class="photoNav-link active photoHeaderFont" href="./menu.html">Menu</a>
+          <li class="nav-item linksText">
+            <a class="nav-link active" href="./menu.html">Menu</a>
           </li>
-          <li class="nav-item photoLinksText">
-            <a class="photoNav-link photoHeaderFont" href="./catering.html">Catering</a>
+          <li class="nav-item linksText">
+            <a class="nav-link" href="./catering.html">Catering</a>
           </li>
-          <li class="nav-item photoLinksText">
-            <a class="photoNav-link photoHeaderFont" href="./photos.html">Photo</a>
+          <li class="nav-item linksText">
+            <a class="nav-link" href="./photos.html">Photo</a>
           </li>
         </ul>
       </div>
     </div>
   </div>
-  <!--Seperate Navbar for mobile screens-->
-  <div class="container-fluid d-none d-sm-block d-lg-none">
+  <!--Seperate Navbar for mobile screens (Medium and Large phones)-->
+  <div class="container-fluid d-none d-sm-block d-lg-none mb-4">
     <div class="row">
-      <div class="col-6 d-flex justify-content-center photoNoPadding">
+      <div class="col-6 d-flex justify-content-center NoPadding">
         <div class="nav">
           <div>
-            <img src="../assets/MuzzlesLogo.png" class="photoPageCenter" alt="The Muzzle's restaurant logo">
+            <a href="../index.html">
+              <img src="../assets/MuzzlesLogo.png" alt="Muzzles' Logo" class="d-flex justify-content-center">
+            </a>
           </div>
         </div>
       </div>
-      <div class="col-6 d-flex justify-content-center photoNoPadding">
-        <li class="removeBullet py-4">
-          <div class="dropdown">
-            <button class="btn  dropdown-toggle ml-5 menulinksText photoNav-link" type="button" id=""
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Explore
-            </button>
-            <div class="dropdown-menu topBtn" aria-labelledby="dropdownMenu2">
-              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./about.html">About</a>
-              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./menu.html">Menu</a>
-              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./catering.html">Catering</a>
-              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./photos.html">Photo</a>
+      <div class="col-6 d-flex justify-content-center NoPadding">
+        <ul>
+          <li class="removeBullet py-4 d-flex justify-content-start">
+            <div class="dropdown">
+              <button class="btn  dropdown-toggle ml-5 linksText nav-link" type="button" id="" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Explore
+              </button>
+              <div class="dropdown-menu topBtn" aria-labelledby="dropdownMenu2">
+                <a class="dropdown-item linksText nav-link" type="button" href="./about.html">About</a>
+                <a class="dropdown-item linksText nav-link" type="button" href="./menu.html">Menu</a>
+                <a class="dropdown-item linksText nav-link" type="button" href="./catering.html">Catering</a>
+                <a class="dropdown-item linksText nav-link" type="button" href="./photos.html">Photo</a>
+              </div>
             </div>
-          </div>
-        </li>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-  <div class="container-fluid d-block d-sm-none">
+  <!--Seperate Navbar for mobile screens (Small phones) -->
+  <div class="container-fluid d-block d-sm-none mb-4">
     <div class="row">
-      <div class="col-6 d-flex justify-content-center photoNoPadding">
-        <div class="nav">
-          <div>
-            <img src="../assets/MuzzlesLogo.png" class="photoPageCenter" alt="The Muzzle's restaurant logo">
-          </div>
+      <div class="col-6 d-flex justify-content-center NoPadding">
+        <div class="nav pt-2 pl-0">
+          <a href="../index.html">
+            <img src="../assets/MuzzlesLogo.png" alt="Muzzles' Logo" class=" muzzlesLogo">
+          </a>
         </div>
       </div>
-      <div class="col-6 d-flex justify-content-center photoNoPadding">
-        <li class="removeBullet py-4">
-          <div class="dropdown">
-            <button class="btn  dropdown-toggle ml-5 menulinksText photoNav-link" type="button" id=""
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Explore
-            </button>
-            <div class="dropdown-menu topBtn" aria-labelledby="dropdownMenu2">
-              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./about.html">About</a>
-              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./menu.html">Menu</a>
-              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./catering.html">Catering</a>
-              <a class="dropdown-item menulinksText photoNav-link photoHeaderFont" type="button" href="./photos.html">Photo</a>
+      <div class="col-6  d-flex justify-content-start">
+        <ul>
+          <li class="removeBullet py-4">
+            <div class="dropdown">
+              <button class="btn  dropdown-toggle linksText nav-link btnSize" type="button" id="" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Explore
+              </button>
+              <div class="dropdown-menu topBtn" aria-labelledby="dropdownMenu2">
+                <a class="dropdown-item linksText nav-link btnSize" type="button" href="./about.html">About</a>
+                <a class="dropdown-item linksText nav-link btnSize" type="button" href="./menu.html">Menu</a>
+                <a class="dropdown-item linksText nav-link btnSize" type="button" href="./catering.html">Catering</a>
+                <a class="dropdown-item linksText nav-link btnSize" type="button" href="./photos.html">Photo</a>
+              </div>
             </div>
-          </div>
-        </li>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -109,22 +116,21 @@
   </div>
   <div class="container-fluid">
     <div class="row photoPageCenter">
-      <div class="col-xs-12 col-md-10 ">
+      <div class="col-xs-1 col-md-10 ">
         <img src="../assets/cateringHero.jpg" alt="A large catering table with a lot of finger foods." width="100%">
       </div>
     </div>
     <br>
     <br>
     <br>
-    <br>
     <div class="row">
-      <div class="col-md-1">
+      <div class="col-1">
       </div>
-      <div class="col-xs-12 col-lg-4 photoPageCenter">
+      <div class="col-xs-10 col-xl-4 photoPageCenter">
         <img src="../assets/cateringMaine.jpg" alt="A delicious and extensive set of stuffed and roasted tomatoes."
           width="100%">
       </div>
-      <div class="col-xs-12 col-lg-6 photoPageCenter">
+      <div class="col-xs-10 col-xl-6 photoPageCenter">
         <div class="card rounded-0" style="width: 100%;">
           <div class="card-body">
             <p class="card-title cateringPageCardFont1">Our Catering Services</p>
@@ -152,6 +158,7 @@
           </div>
         </div>
       </div>
+      <div class="col-1"></div>
     </div>
     <br>
     <br>
@@ -186,7 +193,7 @@
       </div>
     </div>
     <!-- This is for extra small and small -->
-    <div class="container-fluid d-block d-sm-none">
+    <div class="container-fluid d-block d-md-none">
       <div class="row menuCenter">
 
         <div class="col-10 menuCenter mt-4">
@@ -201,56 +208,56 @@
       </div>
     </div>
   </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
- <!--Footer for Medium and Larger screens-->
- <div class="containter-fluid d-none d-md-block pt-5 pb-4">
-  <div class="row pt-5">
-    <div class="col-1"></div>
-    <div class="col-5 ">
-      <div class="row">
-        <div class="col-12 NoPadding">
-          <p class="FooterText NoPadding">1357 Mutt Street, Rottweiler CA. 12345</p>
-        </div>
-        <div class="col-12 NoPadding hyphens">
-          <p class="FooterText ">Phone: 123&hyphen;456&hyphen;7890</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-5 d-flex justify-content-end">
-      <div class="row">
-        <div class="col-12 NoPadding d-flex justify-content-end">
-          <img class="Logo" src="../assets/CompanyLogo.png" alt="Image of the company logo." />
-        </div>
-        <div class="col-12 NoPadding d-flex justify-content-end pr-0">
-          <p class="FooterText">Copyright © Muzzles Restaurant</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-1"></div>
-  </div>
-</div>
 
-<!--Footer for 425px and below-->
-<div class="container-fluid d-md-none">
-  <div class="row">
-    <div class="col-12 NoPadding d-flex justify-content-center ">
-      <img class="Logo mb-3" src="../assets/CompanyLogo.png" alt="Image of the company logo." />
-    </div>
-    <div class="col-12 NoPadding ">
-      <p class="FooterText d-flex justify-content-center NoPadding">1357 Mutt Street, <br> </p>
-      <p class="FooterText d-flex justify-content-center ">Rottweiler CA. 12345</p>
-      <p class="FooterText d-flex justify-content-center">Phone: 123&hyphen;456&hyphen;7890</p>
-    </div>
-    <div class="col-12 d-flex justify-content-center">
-      <p class="FooterText mb-4">Copyright © Muzzles Restaurant</p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!--Footer for Medium and Larger screens-->
+  <div class="containter-fluid d-none d-md-block pt-5 pb-4">
+    <div class="row pt-5">
+      <div class="col-1"></div>
+      <div class="col-5 ">
+        <div class="row">
+          <div class="col-12 NoPadding">
+            <p class="FooterText NoPadding">1357 Mutt Street, Rottweiler CA. 12345</p>
+          </div>
+          <div class="col-12 NoPadding hyphens">
+            <p class="FooterText ">Phone: 123&hyphen;456&hyphen;7890</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5 d-flex justify-content-end">
+        <div class="row">
+          <div class="col-12 NoPadding d-flex justify-content-end">
+            <img class="Logo" src="../assets/CompanyLogo.png" alt="Image of the company logo." />
+          </div>
+          <div class="col-12 NoPadding d-flex justify-content-end pr-0">
+            <p class="FooterText">Copyright © Muzzles Restaurant</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-1"></div>
     </div>
   </div>
-</div>
+
+  <!--Footer for 425px and below-->
+  <div class="container-fluid d-md-none">
+    <div class="row">
+      <div class="col-12 NoPadding d-flex justify-content-center ">
+        <img class="Logo mb-3" src="../assets/CompanyLogo.png" alt="Image of the company logo." />
+      </div>
+      <div class="col-12 NoPadding ">
+        <p class="FooterText d-flex justify-content-center NoPadding">1357 Mutt Street, <br> </p>
+        <p class="FooterText d-flex justify-content-center ">Rottweiler CA. 12345</p>
+        <p class="FooterText d-flex justify-content-center">Phone: 123&hyphen;456&hyphen;7890</p>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <p class="FooterText mb-4">Copyright © Muzzles Restaurant</p>
+      </div>
+    </div>
+  </div>
 
   <!-- Optional JavaScript; choose one of the two! -->
 
