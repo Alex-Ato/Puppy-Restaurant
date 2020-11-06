@@ -528,30 +528,48 @@
 
   </div>
 
-  <div class="containter-fluid pt-5 pb-4">
+  <!--Footer for Medium and Larger screens-->
+  <div class="containter-fluid d-none d-md-block pt-5 pb-4">
     <div class="row pt-5">
       <div class="col-1"></div>
       <div class="col-5 ">
         <div class="row">
-          <div class="col-12 menuNoPadding">
-            <p class="menuFooterText menuNoPadding">1357 Mutt Street, Rottweiler CA. 12345</p>
+          <div class="col-12 NoPadding">
+            <p class="FooterText NoPadding">1357 Mutt Street, Rottweiler CA. 12345</p>
           </div>
-          <div class="col-12 menuNoPadding hyphens">
-            <p class="menuFooterText ">Phone: 123&hyphen;456&hyphen;7890</p>
+          <div class="col-12 NoPadding hyphens">
+            <p class="FooterText ">Phone: 123&hyphen;456&hyphen;7890</p>
           </div>
         </div>
       </div>
-      <div class="col-5 ">
+      <div class="col-5 d-flex justify-content-end">
         <div class="row">
-          <div class="col-12 menuNoPadding d-flex justify-content-end">
-            <img class="menuLogo" src="../assets/CompanyLogo.png" alt="Image of the company logo." />
+          <div class="col-12 NoPadding d-flex justify-content-end">
+            <img class="Logo" src="../assets/CompanyLogo.png" alt="Image of the company logo." />
           </div>
-          <div class="col-12 menuNoPadding d-flex justify-content-end">
-            <p class="menuFooterText">Copyright © Muzzles Restaurant</p>
+          <div class="col-12 NoPadding d-flex justify-content-end pr-0">
+            <p class="FooterText">Copyright © Muzzles Restaurant</p>
           </div>
         </div>
       </div>
       <div class="col-1"></div>
+    </div>
+  </div>
+  
+  <!--Footer for 425px and below-->
+  <div class="container-fluid d-md-none">
+    <div class="row">
+      <div class="col-12 NoPadding d-flex justify-content-center ">
+        <img class="Logo mb-3" src="../assets/CompanyLogo.png" alt="Image of the company logo." />
+      </div>
+      <div class="col-12 NoPadding ">
+        <p class="FooterText d-flex justify-content-center NoPadding">1357 Mutt Street, <br> </p>
+        <p class="FooterText d-flex justify-content-center ">Rottweiler CA. 12345</p>
+        <p class="FooterText d-flex justify-content-center">Phone: 123&hyphen;456&hyphen;7890</p>
+      </div>
+      <div class="col-12 d-flex justify-content-center">
+        <p class="FooterText mb-4">Copyright © Muzzles Restaurant</p>
+      </div>
     </div>
   </div>
 
