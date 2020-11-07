@@ -15,97 +15,95 @@
   <title>Puppy Restaurant</title>
 </head>
 
-<body class="menupuppyBG">
+<body class="puppyBG">
 
-  <div class="container-fluid">
+  <!-- Website NavBar -->
+  <div class="container-fluid mb-4">
     <div class="row">
       <div class="col-3 d-none d-lg-block">
-        <!-- Just an image -->
-        <nav class="navbar navbar-light menumuzzlesLogo">
+        <nav class="navbar navbar-light muzzlesLogo mt-2">
           <a class="navbar-brand" href="../index.html">
-            <img src="../assets/MuzzlesLogo.png" width="100%" height="100%" alt="Image of the Muzzles Logo."
-              loading="lazy">
+            <img src="../assets/MuzzlesLogo.png" alt="Muzzles' Logo" loading="lazy">
           </a>
         </nav>
       </div>
-      <div class="col-9 menuLinksSpacing d-none d-lg-block">
+      <div class="col-9 LinksSpacing d-none d-lg-block mt-5">
         <ul class="nav justify-content-end">
-          <li class="nav-item menulinksText">
-            <a class="menu-nav-link" href="./about.html">About</a>
+          <li class="nav-item linksText">
+            <a class="nav-link" href="./about.html">About</a>
           </li>
-          <li class="nav-item menulinksText">
-            <a class="menu-nav-link active" href="./menu.html">Menu</a>
+          <li class="nav-item linksText">
+            <a class="nav-link active" href="./menu.html">Menu</a>
           </li>
-          <li class="nav-item menulinksText">
-            <a class="menu-nav-link" href="./catering.html">Catering</a>
+          <li class="nav-item linksText">
+            <a class="nav-link" href="./catering.html">Catering</a>
           </li>
-          <li class="nav-item menulinksText">
-            <a class="menu-nav-link" href="./photos.html">Photo</a>
+          <li class="nav-item linksText">
+            <a class="nav-link" href="./photos.html">Photo</a>
           </li>
         </ul>
       </div>
     </div>
   </div>
-
-  <!--Seperate Navbar for mobile screens-->
-  <div class="container-fluid d-none d-sm-block d-lg-none">
+  <!--Seperate Navbar for mobile screens (Medium and Large phones)-->
+  <div class="container-fluid d-none d-sm-block d-lg-none mb-4">
     <div class="row">
-      <div class="col-6 d-flex justify-content-center menuNoPadding">
+      <div class="col-6 d-flex justify-content-center NoPadding">
         <div class="nav">
           <div>
             <a href="../index.html">
-              <img src="../assets/MuzzlesLogo.png" class="menuCenter" alt="Image of the Muzzles Logo.">
+              <img src="../assets/MuzzlesLogo.png" alt="Muzzles' Logo" class="d-flex justify-content-center">
             </a>
           </div>
         </div>
       </div>
-      <div class="col-6 d-flex justify-content-center menuNoPadding">
-        <li class="removeBullet py-4">
-          <div class="dropdown">
-            <button class="btn  dropdown-toggle ml-5 menulinksText menu-nav-link" type="button" id=""
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Explore
-            </button>
-            <div class="dropdown-menu topBtn" aria-labelledby="dropdownMenu2">
-              <a class="dropdown-item menulinksText menu-nav-link" type="button" href="./about.html">About</a>
-              <a class="dropdown-item menulinksText menu-nav-link" type="button" href="./menu.html">Menu</a>
-              <a class="dropdown-item menulinksText menu-nav-link" type="button" href="./catering.html">Catering</a>
-              <a class="dropdown-item menulinksText menu-nav-link" type="button" href="./photos.html">Photo</a>
+      <div class="col-6 d-flex justify-content-center NoPadding">
+        <ul>
+          <li class="removeBullet py-4 d-flex justify-content-start">
+            <div class="dropdown">
+              <button class="btn dropdown-toggle ml-5 linksText nav-link" type="button" id="" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Explore
+              </button>
+              <div class="dropdown-menu topBtn" aria-labelledby="dropdownMenu2">
+                <a class="dropdown-item linksText nav-link" type="button" href="./about.html">About</a>
+                <a class="dropdown-item linksText nav-link active" type="button" href="./menu.html">Menu</a>
+                <a class="dropdown-item linksText nav-link" type="button" href="./catering.html">Catering</a>
+                <a class="dropdown-item linksText nav-link" type="button" href="./photos.html">Photo</a>
+              </div>
             </div>
-          </div>
-        </li>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-
-
-  <div class="container-fluid d-block d-sm-none">
+  <!--Seperate Navbar for mobile screens (Small phones) -->
+  <div class="container-fluid d-block d-sm-none mb-4">
     <div class="row">
-      <div class="col-6 d-flex justify-content-center menuNoPadding">
-        <div class="nav">
-          <div>
-            <a href="../index.html">
-              <img src="../assets/MuzzlesLogo.png" class="menuCenter muzzlesLogo" alt="Image of the Muzzles Logo.">
-            </a>
-          </div>
+      <div class="col-6 d-flex justify-content-center NoPadding">
+        <div class="nav pt-2 pl-0">
+          <a href="../index.html">
+            <img src="../assets/MuzzlesLogo.png" alt="Muzzles' Logo" class=" muzzlesLogo">
+          </a>
         </div>
       </div>
-      <div class="col-6 d-flex justify-content-center menuNoPadding">
-        <li class="removeBullet py-4">
-          <div class="dropdown">
-            <button class="btn dropdown-toggle ml-5 menulinksText menu-nav-link btnSize" type="button" id=""
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Explore
-            </button>
-            <div class="dropdown-menu topBtn" aria-labelledby="dropdownMenu2">
-              <a class="dropdown-item menulinksText menu-nav-link btnSize" type="button" href="./about.html">About</a>
-              <a class="dropdown-item menulinksText menu-nav-link btnSize" type="button" href="./menu.html">Menu</a>
-              <a class="dropdown-item menulinksText menu-nav-link btnSize" type="button"
-                href="./catering.html">Catering</a>
-              <a class="dropdown-item menulinksText menu-nav-link btnSize" type="button" href="./Photo.html">Photo</a>
+      <div class="col-6  d-flex justify-content-start">
+        <ul>
+          <li class="removeBullet py-4">
+            <div class="dropdown">
+              <button class="btn dropdown-toggle linksText nav-link btnSize" type="button" id="" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Explore
+              </button>
+              <div class="dropdown-menu topBtn" aria-labelledby="dropdownMenu2">
+                <a class="dropdown-item linksText nav-link btnSize" type="button" href="./about.html">About</a>
+                <a class="dropdown-item linksText nav-link btnSize active" type="button" href="./menu.html">Menu</a>
+                <a class="dropdown-item linksText nav-link btnSize" type="button" href="./catering.html">Catering</a>
+                <a class="dropdown-item linksText nav-link btnSize" type="button" href="./photos.html">Photo</a>
+              </div>
             </div>
-          </div>
-        </li>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -122,9 +120,9 @@
       </div>
       <div class="row mt-4 ">
 
-        <div class="col-lg-1 col-sm-2 col-3 order-1"></div>
+        <div class="col-1 order-1"></div>
 
-        <div class="col-lg-5 col-sm-8 col-6 menuCenter menuAdjustRight order-2 mt-3">
+        <div class="col-5 menuCenter menuAdjustRight order-2 mt-3">
           <div class="card rounded-0 menuCardWidth">
             <img src="../assets/menubeef.jpg" class="card-img-top rounded-0"
               alt="Image of a steak sandwich topped with grilled onions and bell peppers.">
@@ -135,20 +133,20 @@
                   <h2 class="menuSubTitle ">Sandwiches</h2>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuMaroon mb-5 menuDescription ">All sandwiches come with an side
+                  <p class="MontaukReg mb-5 menuDescription ">All sandwiches come with an side
                     of crispy
                     fries</p>
                 </div>
 
 
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Sizzling Steak Sandwiach</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Sizzling Steak Sandwiach</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding ">$15.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding ">$15.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Open faced steak
+                  <p class="montaukReg menuDescription NoPadding">Open faced steak
                     sandwich with
                     grilled belle peppers and fried onions.</p>
                 </div>
@@ -159,13 +157,13 @@
 
               <div class="row mb-5">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Tenderloin Sliders</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Tenderloin Sliders</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$13.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$13.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Three beef tenderloin
+                  <p class="montaukReg menuDescription NoPadding">Three beef tenderloin
                     sliders with horseradish cream and blackberry bbq.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -176,13 +174,13 @@
 
               <div class="row mb-5">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Classic Chicken Panini</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Classic Chicken Panini</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$10.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$10.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Grilled chicken with
+                  <p class="montaukReg menuDescription NoPadding">Grilled chicken with
                     Monterey jack, romaine lettuce, tomato, and cilantro.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -192,13 +190,13 @@
 
               <div class="row mb-5">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Smoked Turkey Club</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Smoked Turkey Club</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$8.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$8.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Smoked deli turkey,
+                  <p class="montaukReg menuDescription NoPadding">Smoked deli turkey,
                     maple bacon, cranberry aioli, lettuce and tomatoes.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -208,13 +206,13 @@
 
               <div class="row mb-3">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Tuna Sandwich</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Tuna Sandwich</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$6.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$6.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Tuna salad with
+                  <p class="montaukReg menuDescription NoPadding">Tuna salad with
                     sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -239,19 +237,19 @@
                   <h2 class="menuSubTitle ">Seafood</h2>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuMaroon mb-5 menuDescription ">All seafood comes with a side of
+                  <p class="montaukReg mb-5 menuDescription ">All seafood comes with a side of
                     rice pilaf and grilled vegetables</p>
                 </div>
 
 
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Honey Shrimp Skewers</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Honey Shrimp Skewers</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$15.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$15.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Ten honey glazed
+                  <p class="montaukReg menuDescription NoPadding">Ten honey glazed
                     shrimps grilled with sesame seeds and rosemary.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -261,13 +259,13 @@
 
               <div class="row mb-5">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Grilled Salmon</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Grilled Salmon</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$13.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$13.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Salmon grilled in a
+                  <p class="montaukReg menuDescription NoPadding">Salmon grilled in a
                     lime butter sauce.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -277,13 +275,13 @@
 
               <div class="row mb-5">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Grilled Tilapia</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Grilled Tilapia</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$10.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$10.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">A whole grilled tilapia
+                  <p class="montaukReg menuDescription NoPadding">A whole grilled tilapia
                     cooked with smoked paprika.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -293,13 +291,13 @@
 
               <div class="row mb-5">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Parmesan Fish Sticks</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Parmesan Fish Sticks</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$8.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$8.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Sliced salmon in
+                  <p class="montaukReg menuDescription NoPadding">Sliced salmon in
                     parmesan breading served with lemon dill tartar sauce.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -329,19 +327,19 @@
                   <h2 class="menuSubTitle ">On the grill</h2>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuMaroon mb-5 menuDescription ">Served with corn, cheddar
+                  <p class="montaukReg mb-5 menuDescription ">Served with corn, cheddar
                     biscuits, and your choice of coleslaw or potato salad.</p>
                 </div>
 
 
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Baby Back &hyphen; Full Rack</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Baby Back &hyphen; Full Rack</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$19.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$19.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">A full rack of pork
+                  <p class="montaukReg menuDescription NoPadding">A full rack of pork
                     babyback ribs grilled and glazed with blackberry bbq.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -351,13 +349,13 @@
 
               <div class="row mb-5">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Baby Back &hyphen; Half Rack</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Baby Back &hyphen; Half Rack</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$13.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$13.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">A half rack of pork
+                  <p class="montaukReg menuDescription NoPadding">A half rack of pork
                     babyback ribs grilled and glazed with blackberry bbq.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -367,13 +365,13 @@
 
               <div class="row mb-5">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Boneless Ribeye</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Boneless Ribeye</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$25.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$25.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">A three inch thick
+                  <p class="montaukReg menuDescription NoPadding">A three inch thick
                     boneless ribeye grilled in a rosemary rub and butter</p>
                 </div>
                 <div class="col-12 px-5">
@@ -383,13 +381,13 @@
 
               <div class="row mb-5">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Smoked Turkey Club</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Smoked Turkey Club</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$8.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$8.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Smoked deli turkey,
+                  <p class="montaukReg menuDescription NoPadding">Smoked deli turkey,
                     maple bacon,
                     cranberry aioli, lettuce and tomatoes.</p>
                 </div>
@@ -400,13 +398,13 @@
 
               <div class="row mb-3">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Tuna Sandwich</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Tuna Sandwich</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$6.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$6.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Tuna salad with
+                  <p class="montaukReg menuDescription NoPadding">Tuna salad with
                     sprouts, sliced
                     tomatoes and cilantro lime mayo on toast.</p>
                 </div>
@@ -434,19 +432,19 @@
                   <h2 class="menuSubTitle ">Desserts</h2>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuMaroon mb-5 menuDescription ">A shot of esspresso can be added
+                  <p class="montaukReg mb-5 menuDescription ">A shot of esspresso can be added
                     to any dessert for an additional $2.</p>
                 </div>
 
 
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Double Walnut Brownies</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Double Walnut Brownies</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$8.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$8.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Two brownies with a
+                  <p class="montaukReg menuDescription NoPadding">Two brownies with a
                     walnut crust, ice cream and chocolate sauce.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -456,14 +454,14 @@
 
               <div class="row mb-5">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Cheese Cake with Chocolate
+                  <h3 class="montaukReg menuItem NoPadding">Cheese Cake with Chocolate
                     Sauce</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$7.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$7.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Cheesecake with ice
+                  <p class="montaukReg menuDescription NoPadding">Cheesecake with ice
                     cream, chocolate shavings and chocolate sauce.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -473,14 +471,14 @@
 
               <div class="row mb-5">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Tripple Chocolate Brownie
+                  <h3 class="montaukReg menuItem NoPadding">Tripple Chocolate Brownie
                   </h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$6.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$6.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">A tripple chocolate
+                  <p class="montaukReg menuDescription NoPadding">A tripple chocolate
                     brownie served with vanilla ice cream and walnuts.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -490,14 +488,14 @@
 
               <div class="row mb-5">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">House Made Shaved Gelato and
+                  <h3 class="montaukReg menuItem NoPadding">House Made Shaved Gelato and
                     Cookies</h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$5.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$5.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Your choice of shaved
+                  <p class="montaukReg menuDescription NoPadding">Your choice of shaved
                     gelato with whole cookies. Options change daily.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -507,14 +505,14 @@
 
               <div class="row mb-3">
                 <div class="col-xl-9 col-lg-8 col-sm-10 col-9 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Grilled Peaches and Ice Cream
+                  <h3 class="montaukReg menuItem NoPadding">Grilled Peaches and Ice Cream
                   </h3>
                 </div>
                 <div class="col-2 px-5">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$4.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$4.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Grilled peaches in
+                  <p class="montaukReg menuDescription NoPadding">Grilled peaches in
                     cinnamon and brown sugar glaze with ice cream.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -560,20 +558,20 @@
                   <h2 class="menuSubTitle ">Sandwiches</h2>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuMaroon mb-5 menuDescription ">All sandwiches come with an side
+                  <p class="montaukReg mb-5 menuDescription ">All sandwiches come with an side
                     of crispy
                     fries</p>
                 </div>
 
 
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Sizzling Steak Sandwiach</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Sizzling Steak Sandwiach</h3>
                 </div>
                 <div class="col-2 ">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding ">$15.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding ">$15.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Open faced steak
+                  <p class="montaukReg menuDescription NoPadding">Open faced steak
                     sandwich with
                     grilled belle peppers and fried onions.</p>
                 </div>
@@ -584,13 +582,13 @@
 
               <div class="row mb-5">
                 <div class=" col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Tenderloin Sliders</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Tenderloin Sliders</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$13.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$13.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Three beef tenderloin
+                  <p class="montaukReg menuDescription NoPadding">Three beef tenderloin
                     sliders with horseradish cream and blackberry bbq.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -601,13 +599,13 @@
 
               <div class="row mb-5">
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Classic Chicken Panini</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Classic Chicken Panini</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$10.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$10.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Grilled chicken with
+                  <p class="montaukReg menuDescription NoPadding">Grilled chicken with
                     Monterey jack, romaine lettuce, tomato, and cilantro.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -617,13 +615,13 @@
 
               <div class="row mb-5">
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Smoked Turkey Club</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Smoked Turkey Club</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$8.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$8.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Smoked deli turkey,
+                  <p class="montaukReg menuDescription NoPadding">Smoked deli turkey,
                     maple bacon, cranberry aioli, lettuce and tomatoes.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -633,13 +631,13 @@
 
               <div class="row mb-3">
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Tuna Sandwich</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Tuna Sandwich</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$6.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$6.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Tuna salad with
+                  <p class="montaukReg menuDescription NoPadding">Tuna salad with
                     sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -665,19 +663,19 @@
                   <h2 class="menuSubTitle ">Seafood</h2>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuMaroon mb-5 menuDescription ">All seafood comes with a side of
+                  <p class="montaukReg mb-5 menuDescription ">All seafood comes with a side of
                     rice pilaf and grilled vegetables</p>
                 </div>
 
 
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Honey Shrimp Skewers</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Honey Shrimp Skewers</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding ">$15.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding ">$15.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Ten honey glazed
+                  <p class="montaukReg menuDescription NoPadding">Ten honey glazed
                     shrimps grilled with sesame seeds and rosemary.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -687,13 +685,13 @@
 
               <div class="row mb-5">
                 <div class=" col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Grilled Salmon</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Grilled Salmon</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$13.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$13.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Salmon grilled in a
+                  <p class="montaukReg menuDescription NoPadding">Salmon grilled in a
                     lime butter sauce.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -704,13 +702,13 @@
 
               <div class="row mb-5">
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Grilled Tilapia</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Grilled Tilapia</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$10.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$10.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">A whole grilled tilapia
+                  <p class="montaukReg menuDescription NoPadding">A whole grilled tilapia
                     cooked with smoked paprika.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -720,13 +718,13 @@
 
               <div class="row mb-5">
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Parmesan Fish Sticks</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Parmesan Fish Sticks</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$8.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$8.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Sliced salmon in
+                  <p class="montaukReg menuDescription NoPadding">Sliced salmon in
                     parmesan breading served with lemon dill tartar sauce.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -755,19 +753,19 @@
                   <h2 class="menuSubTitle ">On the grill</h2>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuMaroon mb-5 menuDescription ">Served with corn, cheddar
+                  <p class="montaukReg mb-5 menuDescription ">Served with corn, cheddar
                     biscuits, and your choice of coleslaw or potato salad.</p>
                 </div>
 
 
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Baby Back &hyphen; Full Rack</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Baby Back &hyphen; Full Rack</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding ">$19.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding ">$19.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">A full rack of pork
+                  <p class="montaukReg menuDescription NoPadding">A full rack of pork
                     babyback ribs grilled and glazed with blackberry bbq.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -777,13 +775,13 @@
 
               <div class="row mb-5">
                 <div class=" col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Baby Back &hyphen; Half Rack</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Baby Back &hyphen; Half Rack</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$13.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$13.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">A half rack of pork
+                  <p class="montaukReg menuDescription NoPadding">A half rack of pork
                     babyback ribs grilled and glazed with blackberry bbq.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -794,13 +792,13 @@
 
               <div class="row mb-5">
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Boneless Ribeye</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Boneless Ribeye</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$25.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$25.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">A three inch thick
+                  <p class="montaukReg menuDescription NoPadding">A three inch thick
                     boneless ribeye grilled in a rosemary rub and butter</p>
                 </div>
                 <div class="col-12 px-5">
@@ -810,13 +808,13 @@
 
               <div class="row mb-5">
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Smoked Turkey Club</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Smoked Turkey Club</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$8.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$8.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Smoked deli turkey,
+                  <p class="montaukReg menuDescription NoPadding">Smoked deli turkey,
                     maple bacon, cranberry aioli, lettuce and tomatoes.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -826,13 +824,13 @@
 
               <div class="row mb-3">
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Tuna Sandwich</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Tuna Sandwich</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$6.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$6.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Tuna salad with
+                  <p class="montaukReg menuDescription NoPadding">Tuna salad with
                     sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -862,19 +860,19 @@
                   <h2 class="menuSubTitle ">Desserts</h2>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuMaroon mb-5 menuDescription ">A shot of esspresso can be added
+                  <p class="montaukReg mb-5 menuDescription ">A shot of esspresso can be added
                     to any dessert for an additional $2.</p>
                 </div>
 
 
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Double Walnut Brownies</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Double Walnut Brownies</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding ">$8.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding ">$8.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Two brownies with a
+                  <p class="montaukReg menuDescription NoPadding">Two brownies with a
                     walnut crust, ice cream and chocolate sauce.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -884,14 +882,14 @@
 
               <div class="row mb-5">
                 <div class=" col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Cheese Cake with Chocolate
+                  <h3 class="montaukReg menuItem NoPadding">Cheese Cake with Chocolate
                     Sauce</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$7.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$7.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Cheesecake with ice
+                  <p class="montaukReg menuDescription NoPadding">Cheesecake with ice
                     cream, chocolate shavings and chocolate sauce.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -902,13 +900,13 @@
 
               <div class="row mb-5">
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Tripple Chocolate Brownie</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Tripple Chocolate Brownie</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent2 menuNoPadding">$6.99</p>
+                  <p class="montaukReg menuPrice menuIndent2 NoPadding">$6.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">A tripple chocolate
+                  <p class="montaukReg menuDescription NoPadding">A tripple chocolate
                     brownie served with vanilla ice cream and walnuts.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -918,14 +916,14 @@
 
               <div class="row mb-5">
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">House Made Shaved Gelato and
+                  <h3 class="montaukReg menuItem NoPadding">House Made Shaved Gelato and
                     Cookies</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$5.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$5.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Your choice of shaved
+                  <p class="montaukReg menuDescription NoPadding">Your choice of shaved
                     gelato with whole cookies. Options change daily.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -935,13 +933,13 @@
 
               <div class="row mb-3">
                 <div class="col-10 px-5">
-                  <h3 class="menuMontaukReg menuItem menuMaroon  menuNoPadding">Grilled Peaches and Ice Cream</h3>
+                  <h3 class="montaukReg menuItem NoPadding">Grilled Peaches and Ice Cream</h3>
                 </div>
                 <div class="col-2">
-                  <p class="menuMontaukReg menuPrice menuMaroon menuIndent3 menuNoPadding">$4.99</p>
+                  <p class="montaukReg menuPrice menuIndent3 NoPadding">$4.99</p>
                 </div>
                 <div class="col-12 px-5">
-                  <p class="menuMontaukReg menuDescription menuMaroon  menuNoPadding">Grilled peaches in
+                  <p class="montaukReg menuDescription NoPadding">Grilled peaches in
                     cinnamon and brown sugar glaze with ice cream.</p>
                 </div>
                 <div class="col-12 px-5">
@@ -979,18 +977,18 @@
                 <h2 class="menuSubTitle ">Sandwiches</h2>
               </div>
               <div class="col-12 mb-3">
-                <p class="menuMontaukReg menuMaroon mb-2 menuDescription ">All sandwiches come with an side
+                <p class="montaukReg mb-2 menuDescription ">All sandwiches come with an side
                   of crispy
                   fries</p>
               </div>
               <div class="col-8 ">
-                <h3 class="menuMontaukReg menuItem menuMaroon">Sizzling Steak Sandwiach</h3>
+                <h3 class="montaukReg menuItem">Sizzling Steak Sandwiach</h3>
               </div>
               <div class="col-4 ">
-                <p class="menuMontaukReg menuPrice menuMaroon">$15.99</p>
+                <p class="montaukReg menuPrice">$15.99</p>
               </div>
               <div class="col-12 mt-2">
-                <p class="menuMontaukReg menuDescription menuMaroon">Open faced steak
+                <p class="montaukReg menuDescription">Open faced steak
                   sandwich with
                   grilled belle peppers and fried onions.</p>
               </div>
@@ -1001,13 +999,13 @@
 
             <div class="row mb-3">
               <div class=" col-8 ">
-                <h3 class="menuMontaukReg menuItem menuMaroon">Tenderloin Sliders</h3>
+                <h3 class="montaukReg menuItem">Tenderloin Sliders</h3>
               </div>
               <div class="col-4">
-                <p class="menuMontaukReg menuPrice menuMaroon">$13.99</p>
+                <p class="montaukReg menuPrice">$13.99</p>
               </div>
               <div class="col-12 mt-2">
-                <p class="menuMontaukReg menuDescription menuMaroon ">Three beef tenderloin
+                <p class="montaukReg menuDescription ">Three beef tenderloin
                   sliders with horseradish cream and blackberry bbq.</p>
               </div>
               <div class="col-12 ">
@@ -1018,13 +1016,13 @@
 
             <div class="row mb-3">
               <div class="col-8 ">
-                <h3 class="menuMontaukReg menuItem menuMaroon">Classic Chicken Panini</h3>
+                <h3 class="montaukReg menuItem">Classic Chicken Panini</h3>
               </div>
               <div class="col-4">
-                <p class="menuMontaukReg menuPrice menuMaroon">$10.99</p>
+                <p class="montaukReg menuPrice">$10.99</p>
               </div>
               <div class="col-12 mt-2">
-                <p class="menuMontaukReg menuDescription menuMaroon">Grilled chicken with
+                <p class="montaukReg menuDescription">Grilled chicken with
                   Monterey jack, romaine lettuce, tomato, and cilantro.</p>
               </div>
               <div class="col-12 ">
@@ -1034,13 +1032,13 @@
 
             <div class="row mb-3">
               <div class="col-8 ">
-                <h3 class="menuMontaukReg menuItem menuMaroon">Smoked Turkey Club</h3>
+                <h3 class="montaukReg menuItem">Smoked Turkey Club</h3>
               </div>
               <div class="col-4">
-                <p class="menuMontaukReg menuPrice menuMaroon">$8.99</p>
+                <p class="montaukReg menuPrice">$8.99</p>
               </div>
               <div class="col-12 ">
-                <p class="menuMontaukReg menuDescription menuMaroon">Smoked deli turkey,
+                <p class="montaukReg menuDescription">Smoked deli turkey,
                   maple bacon, cranberry aioli, lettuce and tomatoes.</p>
               </div>
               <div class="col-12 ">
@@ -1050,13 +1048,13 @@
 
             <div class="row mb-3">
               <div class="col-8">
-                <h3 class="menuMontaukReg menuItem menuMaroon">Tuna Sandwich</h3>
+                <h3 class="montaukReg menuItem">Tuna Sandwich</h3>
               </div>
               <div class="col-4">
-                <p class="menuMontaukReg menuPrice menuMaroon">$6.99</p>
+                <p class="montaukReg menuPrice">$6.99</p>
               </div>
               <div class="col-12 ">
-                <p class="menuMontaukReg menuDescription menuMaroon">Tuna salad with
+                <p class="montaukReg menuDescription">Tuna salad with
                   sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
               </div>
               <div class="col-12 ">
@@ -1082,17 +1080,17 @@
                 <h2 class="menuSubTitle ">Seafood</h2>
               </div>
               <div class="col-12 ">
-                <p class="menuMontaukReg menuMaroon mb-4 menuDescription ">All seafood comes with a side of
+                <p class="montaukReg mb-4 menuDescription ">All seafood comes with a side of
                   rice pilaf and grilled vegetables</p>
               </div>
               <div class="col-8">
-                <h3 class="menuMontaukReg menuItem menuMaroon">Honey Shrimp Skewers</h3>
+                <h3 class="montaukReg menuItem">Honey Shrimp Skewers</h3>
               </div>
               <div class="col-4">
-                <p class="menuMontaukReg menuPrice menuMaroon">$15.99</p>
+                <p class="montaukReg menuPrice">$15.99</p>
               </div>
               <div class="col-12">
-                <p class="menuMontaukReg menuDescription menuMaroon">Ten honey glazed
+                <p class="montaukReg menuDescription">Ten honey glazed
                   shrimps grilled with sesame seeds and rosemary.</p>
               </div>
               <div class="col-12 ">
@@ -1102,13 +1100,13 @@
 
             <div class="row mb-3">
               <div class=" col-8">
-                <h3 class="menuMontaukReg menuItem menuMaroon">Grilled Salmon</h3>
+                <h3 class="montaukReg menuItem">Grilled Salmon</h3>
               </div>
               <div class="col-4">
-                <p class="menuMontaukReg menuPrice menuMaroon">$13.99</p>
+                <p class="montaukReg menuPrice">$13.99</p>
               </div>
               <div class="col-12 ">
-                <p class="menuMontaukReg menuDescription menuMaroon">Salmon grilled in a
+                <p class="montaukReg menuDescription">Salmon grilled in a
                   lime butter sauce.</p>
               </div>
               <div class="col-12 ">
@@ -1119,13 +1117,13 @@
 
             <div class="row mb-3">
               <div class="col-8">
-                <h3 class="menuMontaukReg menuItem menuMaroon">Grilled Tilapia</h3>
+                <h3 class="montaukReg menuItem">Grilled Tilapia</h3>
               </div>
               <div class="col-4">
-                <p class="menuMontaukReg menuPrice menuMaroon">$10.99</p>
+                <p class="montaukReg menuPrice">$10.99</p>
               </div>
               <div class="col-12">
-                <p class="menuMontaukReg menuDescription menuMaroon">A whole grilled tilapia
+                <p class="montaukReg menuDescription">A whole grilled tilapia
                   cooked with smoked paprika.</p>
               </div>
               <div class="col-12 ">
@@ -1135,13 +1133,13 @@
 
             <div class="row mb-3">
               <div class="col-8">
-                <h3 class="menuMontaukReg menuItem menuMaroon">Parmesan Fish Sticks</h3>
+                <h3 class="montaukReg menuItem">Parmesan Fish Sticks</h3>
               </div>
               <div class="col-4">
-                <p class="menuMontaukReg menuPrice menuMaroon">$8.99</p>
+                <p class="montaukReg menuPrice">$8.99</p>
               </div>
               <div class="col-12">
-                <p class="menuMontaukReg menuDescription menuMaroon">Sliced salmon in
+                <p class="montaukReg menuDescription">Sliced salmon in
                   parmesan breading served with lemon dill tartar sauce.</p>
               </div>
               <div class="col-12">
@@ -1167,19 +1165,19 @@
                 <h2 class="menuSubTitle ">On the grill</h2>
               </div>
               <div class="col-12 ">
-                <p class="menuMontaukReg menuMaroon mb-4 menuDescription ">Served with corn, cheddar
+                <p class="montaukReg mb-4 menuDescription ">Served with corn, cheddar
                   biscuits, and your choice of coleslaw or potato salad.</p>
               </div>
 
 
               <div class="col-8">
-                <h3 class="menuMontaukReg menuItem menuMaroon">Baby Back&hyphen;Full Rack </h3>
+                <h3 class="montaukReg menuItem">Baby Back&hyphen;Full Rack </h3>
               </div>
               <div class="col-4">
-                <p class="menuMontaukReg menuPrice menuMaroon">$19.99</p>
+                <p class="montaukReg menuPrice">$19.99</p>
               </div>
               <div class="col-12 ">
-                <p class="menuMontaukReg menuDescription menuMaroon">A full rack of pork
+                <p class="montaukReg menuDescription">A full rack of pork
                   babyback ribs grilled and glazed with blackberry bbq.</p>
               </div>
               <div class="col-12 ">
@@ -1189,13 +1187,13 @@
 
             <div class="row mb-3">
               <div class=" col-8">
-                <h3 class="menuMontaukReg menuItem menuMaroon">Baby Back&hyphen;Half Rack</h3>
+                <h3 class="montaukReg menuItem">Baby Back&hyphen;Half Rack</h3>
               </div>
               <div class="col-4">
-                <p class="menuMontaukReg menuPrice menuMaroon">$13.99</p>
+                <p class="montaukReg menuPrice">$13.99</p>
               </div>
               <div class="col-12 ">
-                <p class="menuMontaukReg menuDescription menuMaroon">A half rack of pork
+                <p class="montaukReg menuDescription">A half rack of pork
                   babyback ribs grilled and glazed with blackberry bbq.</p>
               </div>
               <div class="col-12 ">
@@ -1206,13 +1204,13 @@
 
             <div class="row mb-3">
               <div class="col-8">
-                <h3 class="menuMontaukReg menuItem menuMaroon">Boneless Ribeye</h3>
+                <h3 class="montaukReg menuItem">Boneless Ribeye</h3>
               </div>
               <div class="col-4">
-                <p class="menuMontaukReg menuPrice menuMaroon">$25.99</p>
+                <p class="montaukReg menuPrice">$25.99</p>
               </div>
               <div class="col-12 ">
-                <p class="menuMontaukReg menuDescription menuMaroon">A three inch thick
+                <p class="montaukReg menuDescription">A three inch thick
                   boneless ribeye grilled in a rosemary rub and butter</p>
               </div>
               <div class="col-12 ">
@@ -1222,13 +1220,13 @@
 
             <div class="row mb-3">
               <div class="col-8">
-                <h3 class="menuMontaukReg menuItem menuMaroon">Smoked Turkey Club</h3>
+                <h3 class="montaukReg menuItem">Smoked Turkey Club</h3>
               </div>
               <div class="col-4">
-                <p class="menuMontaukReg menuPrice menuMaroon">$8.99</p>
+                <p class="montaukReg menuPrice">$8.99</p>
               </div>
               <div class="col-12 ">
-                <p class="menuMontaukReg menuDescription menuMaroon">Smoked deli turkey,
+                <p class="montaukReg menuDescription">Smoked deli turkey,
                   maple bacon, cranberry aioli, lettuce and tomatoes.</p>
               </div>
               <div class="col-12 ">
@@ -1238,13 +1236,13 @@
 
             <div class="row mb-3">
               <div class="col-8">
-                <h3 class="menuMontaukReg menuItem menuMaroon">Tuna Sandwich</h3>
+                <h3 class="montaukReg menuItem">Tuna Sandwich</h3>
               </div>
               <div class="col-4">
-                <p class="menuMontaukReg menuPrice menuMaroon">$6.99</p>
+                <p class="montaukReg menuPrice">$6.99</p>
               </div>
               <div class="col-12 ">
-                <p class="menuMontaukReg menuDescription menuMaroon">Tuna salad with
+                <p class="montaukReg menuDescription">Tuna salad with
                   sprouts, sliced tomatoes and cilantro lime mayo on toast.</p>
               </div>
               <div class="col-12 ">
@@ -1257,102 +1255,103 @@
     </div>
 
     <div class="row d-flex justify-content-center NoPadding">
-    <div class="col-12 justify-content-center">
+      <div class="col-12 justify-content-center">
 
-      <div class="card rounded-0 mt-5">
-        <img src="../assets/menudesserts.jpg" class="card-img-top rounded-0 menuCardWidth "
-          alt="Image of a steak sandwich topped with grilled onions and bell peppers.">
-        <div class="card-body">
+        <div class="card rounded-0 mt-5">
+          <img src="../assets/menudesserts.jpg" class="card-img-top rounded-0 menuCardWidth "
+            alt="Image of a steak sandwich topped with grilled onions and bell peppers.">
+          <div class="card-body">
 
-          <div class="row mb-3">
-            <div class="col-12 ">
-              <h2 class="menuSubTitle ">Desserts</h2>
-            </div>
-            <div class="col-12 ">
-              <p class="menuMontaukReg menuMaroon mb-4 menuDescription ">A shot of esspresso can be added
-                to any dessert for an additional $2.</p>
-            </div>
-
-
-            <div class="col-8 ">
-              <h3 class="menuMontaukReg menuItem menuMaroon">Double Walnut Brownies</h3>
-            </div>
-            <div class="col-4">
-              <p class="menuMontaukReg menuPrice menuMaroon">$8.99</p>
-            </div>
-            <div class="col-12 ">
-              <p class="menuMontaukReg menuDescription menuMaroon">Two brownies with a
-                walnut crust, ice cream and chocolate sauce.</p>
-            </div>
-            <div class="col-12 ">
-              <p class="menuBorders"></p>
-            </div>
-          </div>
-
-          <div class="row mb-3">
-            <div class=" col-8">
-              <h3 class="menuMontaukReg menuItem menuMaroon">Cheese Cake with Chocolate
-                Sauce</h3>
-            </div>
-            <div class="col-4">
-              <p class="menuMontaukReg menuPrice menuMaroon">$7.99</p>
-            </div>
-            <div class="col-12 ">
-              <p class="menuMontaukReg menuDescription menuMaroon">Cheesecake with ice
-                cream, chocolate shavings and chocolate sauce.</p>
-            </div>
-            <div class="col-12 ">
-              <p class="menuBorders"></p>
-            </div>
-          </div>
+            <div class="row mb-3">
+              <div class="col-12 ">
+                <h2 class="menuSubTitle ">Desserts</h2>
+              </div>
+              <div class="col-12 ">
+                <p class="montaukReg mb-4 menuDescription ">A shot of esspresso can be added
+                  to any dessert for an additional $2.</p>
+              </div>
 
 
-          <div class="row mb-3">
-            <div class="col-8">
-              <h3 class="menuMontaukReg menuItem menuMaroon">Tripple Chocolate Brownie</h3>
+              <div class="col-8 ">
+                <h3 class="montaukReg menuItem">Double Walnut Brownies</h3>
+              </div>
+              <div class="col-4">
+                <p class="montaukReg menuPrice">$8.99</p>
+              </div>
+              <div class="col-12 ">
+                <p class="montaukReg menuDescription">Two brownies with a
+                  walnut crust, ice cream and chocolate sauce.</p>
+              </div>
+              <div class="col-12 ">
+                <p class="menuBorders"></p>
+              </div>
             </div>
-            <div class="col-4">
-              <p class="menuMontaukReg menuPrice menuMaroon">$6.99</p>
-            </div>
-            <div class="col-12 ">
-              <p class="menuMontaukReg menuDescription menuMaroon">A tripple chocolate
-                brownie served with vanilla ice cream and walnuts.</p>
-            </div>
-            <div class="col-12 ">
-              <p class="menuBorders"></p>
-            </div>
-          </div>
 
-          <div class="row mb-3">
-            <div class="col-8">
-              <h3 class="menuMontaukReg menuItem menuMaroon">House Made Shaved Gelato and
-                Cookies</h3>
+            <div class="row mb-3">
+              <div class=" col-8">
+                <h3 class="montaukReg menuItem">Cheese Cake with Chocolate
+                  Sauce</h3>
+              </div>
+              <div class="col-4">
+                <p class="montaukReg menuPrice">$7.99</p>
+              </div>
+              <div class="col-12 ">
+                <p class="montaukReg menuDescription">Cheesecake with ice
+                  cream, chocolate shavings and chocolate sauce.</p>
+              </div>
+              <div class="col-12 ">
+                <p class="menuBorders"></p>
+              </div>
             </div>
-            <div class="col-4">
-              <p class="menuMontaukReg menuPrice menuMaroon">$5.99</p>
-            </div>
-            <div class="col-12 ">
-              <p class="menuMontaukReg menuDescription menuMaroon">Your choice of shaved
-                gelato with whole cookies. Options change daily.</p>
-            </div>
-            <div class="col-12 ">
-              <p class="menuBorders"></p>
-            </div>
-          </div>
 
-          <div class="row mb-3">
-            <div class="col-8">
-              <h3 class="menuMontaukReg menuItem menuMaroon">Grilled Peaches and Ice Cream</h3>
+
+            <div class="row mb-3">
+              <div class="col-8">
+                <h3 class="montaukReg menuItem">Tripple Chocolate Brownie</h3>
+              </div>
+              <div class="col-4">
+                <p class="montaukReg menuPrice">$6.99</p>
+              </div>
+              <div class="col-12 ">
+                <p class="montaukReg menuDescription">A tripple chocolate
+                  brownie served with vanilla ice cream and walnuts.</p>
+              </div>
+              <div class="col-12 ">
+                <p class="menuBorders"></p>
+              </div>
             </div>
-            <div class="col-4">
-              <p class="menuMontaukReg menuPrice menuMaroon">$4.99</p>
+
+            <div class="row mb-3">
+              <div class="col-8">
+                <h3 class="montaukReg menuItem">House Made Shaved Gelato and
+                  Cookies</h3>
+              </div>
+              <div class="col-4">
+                <p class="montaukReg menuPrice">$5.99</p>
+              </div>
+              <div class="col-12 ">
+                <p class="montaukReg menuDescription">Your choice of shaved
+                  gelato with whole cookies. Options change daily.</p>
+              </div>
+              <div class="col-12 ">
+                <p class="menuBorders"></p>
+              </div>
             </div>
-            <div class="col-12 ">
-              <p class="menuMontaukReg menuDescription menuMaroon">Grilled peaches in
-                cinnamon and brown sugar glaze with ice cream.</p>
-            </div>
-            <div class="col-12 ">
-              <p class="menuBorders"></p>
+
+            <div class="row mb-3">
+              <div class="col-8">
+                <h3 class="montaukReg menuItem">Grilled Peaches and Ice Cream</h3>
+              </div>
+              <div class="col-4">
+                <p class="montaukReg menuPrice">$4.99</p>
+              </div>
+              <div class="col-12 ">
+                <p class="montaukReg menuDescription">Grilled peaches in
+                  cinnamon and brown sugar glaze with ice cream.</p>
+              </div>
+              <div class="col-12 ">
+                <p class="menuBorders"></p>
+              </div>
             </div>
           </div>
         </div>
@@ -1360,46 +1359,33 @@
     </div>
   </div>
 
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="containter-fluid pt-3 pb-4 d-none d-md-block">
+  <!--Footer for Medium and Larger screens-->
+  <div class="containter-fluid d-none d-md-block pt-5 pb-4">
     <div class="row pt-5">
       <div class="col-1"></div>
       <div class="col-5 ">
         <div class="row">
-          <div class="col-12 menuNoPadding">
-            <p class="menuFooterText menuNoPadding">1357 Mutt Street, Rottweiler CA. 12345</p>
+          <div class="col-12 NoPadding">
+            <p class="FooterText NoPadding">1357 Mutt Street, Rottweiler CA. 12345</p>
           </div>
-          <div class="col-12 menuNoPadding hyphens">
-            <p class="menuFooterText ">Phone: 123&hyphen;456&hyphen;7890</p>
+          <div class="col-12 NoPadding hyphens">
+            <p class="FooterText ">Phone: 123&hyphen;456&hyphen;7890</p>
           </div>
         </div>
       </div>
-      <div class="col-5 ">
+      <div class="col-5 d-flex justify-content-end">
         <div class="row">
-          <div class="col-12 menuNoPadding d-flex justify-content-end">
-            <img class="menuLogo" src="../assets/CompanyLogo.png" alt="Image of the company logo." />
+          <div class="col-12 NoPadding d-flex justify-content-end">
+            <img class="Logo" src="../assets/CompanyLogo.png" alt="Image of the company logo." />
           </div>
-          <div class="col-12 menuNoPadding d-flex justify-content-end">
-            <p class="menuFooterText">Copyright © Muzzles Restaurant</p>
+          <div class="col-12 NoPadding d-flex justify-content-end pr-0">
+            <p class="FooterText">Copyright © Muzzles Restaurant</p>
           </div>
         </div>
       </div>
       <div class="col-1"></div>
     </div>
   </div>
-
 
   <!--Footer for 425px and below-->
   <div class="container-fluid d-md-none">
