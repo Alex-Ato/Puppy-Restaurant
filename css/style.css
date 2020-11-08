@@ -453,6 +453,15 @@ body {
     .dogDescription {
         font-size: 20px;
     }
+    .photoPageSizing{
+        width: 25%;
+        height: auto;
+    }
+    .photoPagePush{
+        padding-left: 28px;
+        padding-right: 20px;
+    }
+    
 }
 
 @media only screen and (min-width: 1440px) {
@@ -489,6 +498,12 @@ body {
         font-size: 20px;
     }
 }
+@media only screen and ( min-width: 1700px){
+    .photoPageSizing{
+        width: 25%;
+        height: auto;
+    }
+}
 
 @media only screen and (min-width: 1800px) {
     .behindTheGrillTitle {
@@ -497,6 +512,7 @@ body {
     .behindTheGrillParagraph {
         font-size: 18px;
     }
+   
 }
 
 @media only screen and (min-width: 2300px) {
@@ -528,3 +544,4 @@ body {
         font-size: 30px;
     }
 }
+
