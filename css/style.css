@@ -457,10 +457,10 @@ body {
         width: 25%;
         height: auto;
     }
-    .photoPagePush{
+    /* .photoPagePush{
         padding-left: 28px;
         padding-right: 20px;
-    }
+    } */
     
 }
 
@@ -514,7 +514,13 @@ body {
     }
    
 }
+@media only screen and (min-width: 2000px) {
+    .photoPageheader{
+        padding-left: 50px;
+        padding-right: 20px;
+    }
 
+}
 @media only screen and (min-width: 2300px) {
     .linksText {
         font-size: 30px;
