@@ -1,4 +1,14 @@
 # Puppy-Restaurant
+
+<!--
+  Alex Ato
+  Carlos Gonzalez
+  Trevor Womack
+  11/08/2020
+  Project 3 - Puppy Restaurant
+  Description: To take a prototype of a website and create a fully responsive website from the prototype.
+-->
+
 multi-page puppy website
 
 The Puppy Restaurant website was made using html, css, and bootstrap.
